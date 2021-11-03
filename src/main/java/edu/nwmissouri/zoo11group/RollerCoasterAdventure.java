@@ -6,12 +6,12 @@ package edu.nwmissouri.zoo11group;
 
 /**
  *
- * @author S545407
+ * @author S545254
  */
-public class FerrisWheelAdventure extends ZooAdventure {
-    private int noOfRotations;
-    private double height;
-    /**
+public class RollerCoasterAdventure extends ZooAdventure {
+    private String nameOfThePerson;
+    private boolean isCondition;
+     /**
      *
      */
     @Override
@@ -22,6 +22,7 @@ public class FerrisWheelAdventure extends ZooAdventure {
      */
     @Override
     public void idProof(){
+        
     }
 
     /**
@@ -31,11 +32,15 @@ public class FerrisWheelAdventure extends ZooAdventure {
     public void safetyMeasures(){
         
     }
-    
-    public double heightOfPole(){
-        System.out.println("Height of the pole will be very high");
-        return 0;
+    public boolean condition(){
+        System.out.println("checking the condition is true or false if false mention danger");
+        
+        return false;
     }
-    public void experience(){
-        System.out.println("checking the experience conducted by zoo adventure");}
+    public void color(){
+        System.out.println("Color of the roller coster will mentioned as per changes");
+        
+    
+    }
+    
 }
