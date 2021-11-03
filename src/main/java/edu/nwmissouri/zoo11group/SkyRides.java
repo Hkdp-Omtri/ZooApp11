@@ -24,16 +24,19 @@ public class SkyRides extends ZooRides {
      */
     @Override
     public void noofseats(){
+        
     }
     public void skyrides(){
         System.out.println("skyride");
     }
     public double compartment(){
-        System.out.println("compartment number");
+        System.out.println("compartment number alloted");
+        
         return 0.0;
     
     }
     public void timeLimit(){
-        System.out.println("time limit for ride");
+        System.out.println("time limit for ride will be");
+        
     }
 }
