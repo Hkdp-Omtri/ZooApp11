@@ -25,6 +25,6 @@ public class LogRideAdventure extends ZooAdventure {
     }
     @Override
     public void safetyMeasures(){
-        System.out.println("Need to precautionary measures before entering");
+        System.out.println("Need to take precautionary measures before entering");
     }
 }
