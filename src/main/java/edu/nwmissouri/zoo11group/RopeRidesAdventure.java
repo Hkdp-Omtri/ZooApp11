@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-=======
->>>>>>> dee26f43ed71b87134e68d5613a3d3d370bb3335
+
 package edu.nwmissouri.zoo11group;
 
 /**
