@@ -6,7 +6,7 @@ package edu.nwmissouri.zoo11group;
 
 /**
  *
- * @author S544929
+ * @author Homakesavadurgaprasad Omtri (S544929)
  */
 public class CarRides extends ZooRides {
 
