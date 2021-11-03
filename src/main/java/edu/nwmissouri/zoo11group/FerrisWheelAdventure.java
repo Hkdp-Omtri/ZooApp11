@@ -29,10 +29,13 @@ public class FerrisWheelAdventure extends ZooAdventure {
      */
     @Override
     public void safetyMeasures(){
+        
     }
     
     public double heightOfPole(){
+        System.out.println("Height of the pole will be very high");
         return 0;
     }
-    public void experience(){}
+    public void experience(){
+        System.out.println("checking the experience conducted by zoo adventure");}
 }

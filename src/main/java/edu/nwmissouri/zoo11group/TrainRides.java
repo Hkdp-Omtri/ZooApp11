@@ -32,11 +32,11 @@ public class TrainRides extends ZooRides{
     
     }
     public String seatNumber(){
-        
+        System.out.println("The alloted seta number for your ride");
        return null;
    }
     public double speedCalculation(){
-        
+        System.out.println("Calculating the speed of the train");
        return 0;
    }
 }
