@@ -17,11 +17,11 @@ public class BungeJumpAdventure extends ZooAdventure {
         System.out.println("the age limit is 20+ years");
     }
     @Override
-    public void idproof(){
+    public void idProof(){
         System.out.println("We need valid passport");
     }
     @Override
-    public void safetymeasures(){
+    public void safetyMeasures(){
         System.out.println("For BungeJump you have to sign death wavier");
     }
     
