@@ -8,6 +8,7 @@ package edu.nwmissouri.zoo11group;
  *
  * @author S545407
  */
-public class TrainRides {
+public class TrainRides extends ZooRides{
+    
     
 }
