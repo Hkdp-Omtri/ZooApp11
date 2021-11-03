@@ -17,7 +17,7 @@ public class LogRideAdventure extends ZooAdventure {
     }
     @Override
     public void ageLimit(){
-        System.out.println("The age limit should be above 18 years");
+        System.out.println("The age limit should be above 18 years.");
     }
     @Override
     public void idProof(){
