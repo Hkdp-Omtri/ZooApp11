@@ -21,7 +21,7 @@ public class LogRideAdventure extends ZooAdventure {
     }
     @Override
     public void idProof(){
-        System.out.println("Governemnt issued card is required");
+        System.out.println("Governemnt issued card is required.");
     }
     @Override
     public void safetyMeasures(){
