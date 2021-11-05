@@ -1,21 +1,22 @@
+
 package edu.nwmissouri.zoo11group;
 
 /**
  *
  * @author Alekhya Gandra
  */
-public class AnimalRides extends ZooRides{
+public class AnimalRides {
     
     int animalName;
     int noOfMembers;
     double speed;
     
-      @Override
+      
     public void ticketprice()
     {
         
     }
-    @Override
+    
     public void noofseats()
     {
         

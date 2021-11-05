@@ -8,12 +8,12 @@ package edu.nwmissouri.zoo11group;
  *
  * @author SarathArrepu
  */
-public class ShuttleRides extends ZooRides {
+public class ShuttleRides {
     private String customerName;
     private boolean doubleAxle;
     private int noofcustomers;
     
-    @Override
+    
     public void ticketprice(){
         System.out.println("The ticket price is $10");
     }
@@ -24,4 +24,8 @@ public class ShuttleRides extends ZooRides {
     public void shuttletype(){
         System.out.println("This a minivan");
     }
+    
+    public static void run() {
+        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                      
+        System.out.println("Hey - look at the Elephant!"); }
 }
