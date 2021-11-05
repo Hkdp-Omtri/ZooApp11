@@ -117,6 +117,7 @@ public class ZooApp {
                 System.out.print("58.Walrus              ");
                 System.out.print("59.Xraytetra           ");
                 System.out.println("60.YukonMoose          "); */
+               System.out.println("7.SkyRides       ");
                 try {
                     typeNumberInput = scanner.nextInt();
                 } catch (Exception ex) {
@@ -155,7 +156,10 @@ public class ZooApp {
                         TauntingTigerGroup.create();
                         TauntingTigerGroup.run();
                     }
-
+                    case 7 -> {
+                         SkyRides.run();
+                 
+                    }
                     default -> {
                     }
 

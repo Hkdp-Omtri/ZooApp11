@@ -75,9 +75,16 @@ public class ZooController {
     public String persons() {
         return "persons";
     }
-    
-    
-    
+
+    @GetMapping(path = "/ZooRides")
+    public String ZooRides() {
+        return "ZooRides";
+    }
+
+    @GetMapping(path = "/ZooAdventure")
+    public String ZooAdventure() {
+        return "ZooAdventure";
+    }
 
     /**
      * Map GET request to "/rides" to rides() method.
@@ -107,42 +114,42 @@ public class ZooController {
         PrintStream old = System.out;
         // Tell Java to use your special stream
         System.setOut(newPrintStream);
-
+        //SkyRides skyrides=new SkyRides();
         var intID = Integer.parseInt(id);
 
         switch (intID) {
 
-           
-            case 21 -> {
+            case 1 -> {
                 ElephantGroup.create();
                 ElephantGroup.run();
             }
-            case 22 -> {
+            case 2 -> {
                 EmuGroup.create();
                 EmuGroup.run();
             }
-            
-            
-            
-            case 43 -> {
+
+            case 3 -> {
                 PantheraGroup.create();
                 PantheraGroup.run();
             }
-            case 44 -> {
+            case 4 -> {
                 PolarBearGroup.create();
                 PolarBearGroup.run();
             }
-            case 45 -> {
+            case 5 -> {
                 ProngHornGroup.create();
                 ProngHornGroup.run();
             }
-            
-                
-            case 56 -> {
+
+            case 6 -> {
                 TauntingTigerGroup.create();
                 TauntingTigerGroup.run();
             }
-           
+
+            case 7 -> {
+                SkyRides.run();
+                 
+            }
             default -> {
             }
         }

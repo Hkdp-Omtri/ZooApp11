@@ -12,10 +12,14 @@ public abstract class ZooRides {
     private String name;
     private String ticketType;
     private int noofcustomers;
-    
+   
     public void ticketprice(){
         
 }
     public void noofseats(){
     }
+    
+    public static void run(){
+    }
+    
 }

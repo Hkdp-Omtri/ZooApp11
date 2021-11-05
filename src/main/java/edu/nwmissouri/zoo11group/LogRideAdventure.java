@@ -27,4 +27,7 @@ public class LogRideAdventure extends ZooAdventure {
     public void safetyMeasures(){
         System.out.println("Need to take precautionary measures before entering .");
     }
+    public static void run() {
+        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                      
+        System.out.println("Hey - look at the Elephant!"); }
 }
