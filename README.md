@@ -7,3 +7,4 @@ Oops Team Assignment for Web application :earth_asia:
 * Harshika 
 * Sarath 
 * Prabhakar
+* Pravallika
