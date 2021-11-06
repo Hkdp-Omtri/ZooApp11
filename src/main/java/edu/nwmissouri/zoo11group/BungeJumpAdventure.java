@@ -37,8 +37,8 @@ public class BungeJumpAdventure extends ZooAdventure {
     }
 
     public static void run() {
-        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
-        System.out.println("Hey - look at the Elephant!");
+        System.out.println("********************************");
+        System.out.println("Bunge Jump Adventure");
     }
 
 }

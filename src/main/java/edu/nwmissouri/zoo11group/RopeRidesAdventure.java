@@ -37,6 +37,6 @@ public class RopeRidesAdventure extends ZooAdventure {
         System.out.println("SafetyMeasures are taken");
     }
     public static void run() {
-        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                      
-        System.out.println("Hey - look at the Elephant!"); }
+        System.out.println("*************************************");                      
+        System.out.println("This is the Rope Rides Adventure want to experience it!"); }
 }

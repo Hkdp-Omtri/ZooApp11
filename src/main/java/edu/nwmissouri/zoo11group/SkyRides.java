@@ -29,15 +29,15 @@ public class SkyRides extends ZooRides {
    
     
    public static void run() {
-        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                      
-        System.out.println("Hey - look at the Elephant!");                         
+        System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");                      
+        System.out.println("Hey look do you wanna join sky rides");                         
 //        for (SkyRides skyrides : myGroup) {                                   
 //            skyrides.noofseats();
 //            skyrides.skyrides();                                  
 //        }
 
-        System.out.println("Nice Elephant - that was really fun!");              
-        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                               
+        System.out.println("The sky rides have many games look at it");              
+        System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");                               
     }
     @Override
     public void noofseats(){

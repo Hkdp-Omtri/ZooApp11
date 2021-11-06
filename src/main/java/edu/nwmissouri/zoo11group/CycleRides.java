@@ -33,7 +33,7 @@ public class CycleRides {
     System.out.println("Harshika won the first price");   
     }    
     public static void run() {
-        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                      
-        System.out.println("Hey - look at the Elephant!"); }
+        System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");                      
+        System.out.println("This is a Cycle Ride"); }
     }   
     

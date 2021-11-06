@@ -27,5 +27,5 @@ public class ShuttleRides {
     
     public static void run() {
         System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                      
-        System.out.println("Hey - look at the Elephant!"); }
+        System.out.println("Do you want to Join the Shuttle Rides"); }
 }

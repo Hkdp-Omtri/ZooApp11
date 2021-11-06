@@ -41,7 +41,7 @@ public class TrainRides extends ZooRides{
    }
     
     public static void run() {
-        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                      
-        System.out.println("Hey - look at the Elephant!"); }
+        System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");                      
+        System.out.println("Look at the Train Rides"); }
    
 }
