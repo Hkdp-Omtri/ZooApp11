@@ -28,6 +28,6 @@ public class LogRideAdventure extends ZooAdventure {
         System.out.println("Need to take precautionary measures before entering .");
     }
     public static void run() {
-        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                      
-        System.out.println("Hey - look at the Elephant!"); }
+        System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");                      
+        System.out.println("This is the LogRide Adventure"); }
 }

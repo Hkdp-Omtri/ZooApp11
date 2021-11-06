@@ -42,8 +42,9 @@ public class WaterRides extends ZooAdventure {
     }
 
     public static void run() {
-        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
-        System.out.println("Hey - look at the Elephant!");
+        System.out.println("+++++++++++++++++++++++++++++++++++++++++++");
+        System.out.println("What games do you wanna join in water rides");
+        System.out.println("Look there is a Aqua Loop Game");
     }
 
     public int totalCostOfRide(int noOfPeople) {
