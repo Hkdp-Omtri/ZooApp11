@@ -148,7 +148,39 @@ public class ZooController {
 
             case 7 -> {
                 SkyRides.run();
-                 
+            }
+            case 8 -> {
+                BungeJumpAdventure.run();
+            }
+            case 9 -> {
+                CarRides.run();
+            }
+            case 10 -> {
+                CycleRides.run();
+            }
+            case 11 -> {
+                FerrisWheelAdventure.run();
+            }
+            case 12 -> {
+                LogRideAdventure.run();
+            }
+            case 13 -> {
+                RollerCoasterAdventure.run();
+            }
+            case 14 -> {
+                RopeRidesAdventure.run();
+            }
+            case 15 -> {
+                ShuttleRides.run();
+            }
+            case 16 -> {
+                TrainRides.run();
+            }
+            case 17 -> {
+                WaterRides.run();
+            }
+            case 18 -> {
+                ShuttleRides.run();
             }
             default -> {
             }

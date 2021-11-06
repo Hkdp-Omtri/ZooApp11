@@ -117,7 +117,18 @@ public class ZooApp {
                 System.out.print("58.Walrus              ");
                 System.out.print("59.Xraytetra           ");
                 System.out.println("60.YukonMoose          "); */
-               System.out.println("7.SkyRides       ");
+                System.out.println("7.SkyRides       ");
+                System.out.println("8.BungeJumpAdventure       ");
+                System.out.println("9.CarRides       ");
+                System.out.println("10.CycleRides       ");
+                System.out.println("11.FerrisWheelAdventure       ");
+                System.out.println("12.LogRideAdventure       ");
+                System.out.println("13.RollerCoasterAdventure       ");
+                System.out.println("14.RopeRidesAdventure       ");
+                System.out.println("15.ShuttleRides       ");
+                System.out.println("16.TrainRides       ");
+                System.out.println("17.WaterRides       ");
+                System.out.println("18.ShuttleRides       ");
                 try {
                     typeNumberInput = scanner.nextInt();
                 } catch (Exception ex) {
@@ -157,8 +168,43 @@ public class ZooApp {
                         TauntingTigerGroup.run();
                     }
                     case 7 -> {
-                         SkyRides.run();
-                 
+                        SkyRides.run();
+                    }
+                    case 8 -> {
+                        BungeJumpAdventure.run();
+                    }
+                    case 9 -> {
+                        CarRides.run();
+                    }
+                    case 10 -> {
+                        CycleRides.run();
+                    }
+                    case 11 -> {
+                        FerrisWheelAdventure.run();
+                    }
+                    case 12 -> {
+                        LogRideAdventure.run();
+                    }
+                    case 13 -> {
+                        RollerCoasterAdventure.run();
+                    }
+                    case 14 -> {
+                        RopeRidesAdventure.run();
+                    }
+                    case 15 -> {
+                        ShuttleRides.run();
+                    }
+                    case 16 -> {
+                        TrainRides.run();
+                        TrainRides.speedCalculation();
+                        TrainRides.seatNumber();
+                        TrainRides.trainRides();
+                    }
+                    case 17 -> {
+                        WaterRides.run();
+                    }
+                    case 18 -> {
+                        ShuttleRides.run();
                     }
                     default -> {
                     }
