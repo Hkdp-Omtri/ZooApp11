@@ -11,6 +11,27 @@ package edu.nwmissouri.zoo11group;
 public class RollerCoasterAdventure extends ZooAdventure {
     private String nameOfThePerson;
     private boolean isCondition;
+
+    @Override
+    public String toString() {
+        return "RollerCoasterAdventure{" + "nameOfThePerson=" + nameOfThePerson + ", isCondition=" + isCondition + '}';
+    }
+
+    public String getNameOfThePerson() {
+        return nameOfThePerson;
+    }
+
+    public void setNameOfThePerson(String nameOfThePerson) {
+        this.nameOfThePerson = nameOfThePerson;
+    }
+
+    public boolean isIsCondition() {
+        return isCondition;
+    }
+
+    public void setIsCondition(boolean isCondition) {
+        this.isCondition = isCondition;
+    }
      /**
      *
      */

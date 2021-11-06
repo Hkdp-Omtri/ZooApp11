@@ -11,6 +11,27 @@ package edu.nwmissouri.zoo11group;
 public class FerrisWheelAdventure extends ZooAdventure {
     private int noOfRotations;
     private double height;
+
+    @Override
+    public String toString() {
+        return "FerrisWheelAdventure{" + "noOfRotations=" + noOfRotations + ", height=" + height + '}';
+    }
+
+    public int getNoOfRotations() {
+        return noOfRotations;
+    }
+
+    public void setNoOfRotations(int noOfRotations) {
+        this.noOfRotations = noOfRotations;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
     /**
      *
      */

@@ -14,6 +14,35 @@ public class SkyRides extends ZooRides {
     
     private double Price;
     private double Miles;
+
+    @Override
+    public String toString() {
+        return "SkyRides{" + "Price=" + Price + ", Miles=" + Miles + '}';
+    }
+
+    public double getPrice() {
+        return Price;
+    }
+
+    public void setPrice(double Price) {
+        this.Price = Price;
+    }
+
+    public double getMiles() {
+        return Miles;
+    }
+
+    public void setMiles(double Miles) {
+        this.Miles = Miles;
+    }
+
+    public static ArrayList<SkyRides> getMyGroup() {
+        return myGroup;
+    }
+
+    public static void setMyGroup(ArrayList<SkyRides> myGroup) {
+        SkyRides.myGroup = myGroup;
+    }
     private static ArrayList<SkyRides> myGroup;
      /**
      *

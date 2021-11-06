@@ -8,6 +8,27 @@ package edu.nwmissouri.zoo11group;
 public class RopeRidesAdventure extends ZooAdventure {
     
     int noOfMembers;
+
+    @Override
+    public String toString() {
+        return "RopeRidesAdventure{" + "noOfMembers=" + noOfMembers + ", speed=" + speed + '}';
+    }
+
+    public int getNoOfMembers() {
+        return noOfMembers;
+    }
+
+    public void setNoOfMembers(int noOfMembers) {
+        this.noOfMembers = noOfMembers;
+    }
+
+    public double getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(double speed) {
+        this.speed = speed;
+    }
     double speed;
     
    

@@ -4,8 +4,6 @@
  */
 package edu.nwmissouri.zoo11group;
 
-import java.util.Scanner;
-
 /**
  *
  * @author Pinninti Harshikas
@@ -14,6 +12,43 @@ public class WaterRides extends ZooAdventure {
 
     private String adventureName;
     private int noOfCustomer;
+
+    @Override
+    public String toString() {
+        return "WaterRides{" + "adventureName=" + adventureName + ", noOfCustomer=" + noOfCustomer + ", noOfPeople=" + noOfPeople + ", totalCost=" + totalCost + '}';
+    }
+
+    public String getAdventureName() {
+        return adventureName;
+    }
+
+    public void setAdventureName(String adventureName) {
+        this.adventureName = adventureName;
+    }
+
+    public int getNoOfCustomer() {
+        return noOfCustomer;
+    }
+
+    public void setNoOfCustomer(int noOfCustomer) {
+        this.noOfCustomer = noOfCustomer;
+    }
+
+    public int getNoOfPeople() {
+        return noOfPeople;
+    }
+
+    public void setNoOfPeople(int noOfPeople) {
+        this.noOfPeople = noOfPeople;
+    }
+
+    public int getTotalCost() {
+        return totalCost;
+    }
+
+    public void setTotalCost(int totalCost) {
+        this.totalCost = totalCost;
+    }
     private int noOfPeople;
     private int totalCost;
 

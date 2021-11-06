@@ -13,6 +13,43 @@ import java.util.Scanner;
 public class CycleRides {
     private int distance;
     private int speed;
+
+    @Override
+    public String toString() {
+        return "CycleRides{" + "distance=" + distance + ", speed=" + speed + ", count=" + count + ", Time=" + Time + '}';
+    }
+
+    public int getDistance() {
+        return distance;
+    }
+
+    public void setDistance(int distance) {
+        this.distance = distance;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
+
+    public int getCount() {
+        return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
+    }
+
+    public int getTime() {
+        return Time;
+    }
+
+    public void setTime(int Time) {
+        this.Time = Time;
+    }
     private int count;
     private int Time;
     /**

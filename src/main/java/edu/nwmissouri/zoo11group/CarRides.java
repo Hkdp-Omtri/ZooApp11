@@ -10,6 +10,43 @@ package edu.nwmissouri.zoo11group;
  */
 public class CarRides {
 
+    @Override
+    public String toString() {
+        return "CarRides{" + "price=" + price + ", time=" + time + ", distance=" + distance + ", age=" + age + '}';
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public double getTime() {
+        return time;
+    }
+
+    public void setTime(double time) {
+        this.time = time;
+    }
+
+    public double getDistance() {
+        return distance;
+    }
+
+    public void setDistance(double distance) {
+        this.distance = distance;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     private double price;
     private double time;
     private double distance;

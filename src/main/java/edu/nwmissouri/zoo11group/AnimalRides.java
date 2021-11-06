@@ -9,6 +9,35 @@ public class AnimalRides {
     
     int animalName;
     int noOfMembers;
+
+    @Override
+    public String toString() {
+        return "AnimalRides{" + "animalName=" + animalName + ", noOfMembers=" + noOfMembers + ", speed=" + speed + '}';
+    }
+
+    public int getAnimalName() {
+        return animalName;
+    }
+
+    public void setAnimalName(int animalName) {
+        this.animalName = animalName;
+    }
+
+    public int getNoOfMembers() {
+        return noOfMembers;
+    }
+
+    public void setNoOfMembers(int noOfMembers) {
+        this.noOfMembers = noOfMembers;
+    }
+
+    public double getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(double speed) {
+        this.speed = speed;
+    }
     double speed;
     
       

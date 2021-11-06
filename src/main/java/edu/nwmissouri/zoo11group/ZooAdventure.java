@@ -11,6 +11,27 @@ package edu.nwmissouri.zoo11group;
 public abstract class ZooAdventure {
     private String Adventurename;
     private int NumberOfCustomers;
+
+    @Override
+    public String toString() {
+        return "ZooAdventure{" + "Adventurename=" + Adventurename + ", NumberOfCustomers=" + NumberOfCustomers + '}';
+    }
+
+    public String getAdventurename() {
+        return Adventurename;
+    }
+
+    public void setAdventurename(String Adventurename) {
+        this.Adventurename = Adventurename;
+    }
+
+    public int getNumberOfCustomers() {
+        return NumberOfCustomers;
+    }
+
+    public void setNumberOfCustomers(int NumberOfCustomers) {
+        this.NumberOfCustomers = NumberOfCustomers;
+    }
     
     public static void run () 
     {
