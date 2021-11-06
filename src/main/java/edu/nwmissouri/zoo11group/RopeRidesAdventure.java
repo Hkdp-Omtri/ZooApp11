@@ -2,7 +2,7 @@
 package edu.nwmissouri.zoo11group;
 
 /**
- *
+ *This is RopeRidesAdventure class 
  * @author Alekhya Gandra
  */
 public class RopeRidesAdventure extends ZooAdventure {

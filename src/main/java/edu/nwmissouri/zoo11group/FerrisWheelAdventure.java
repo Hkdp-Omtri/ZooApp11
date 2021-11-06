@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo11group;
 
 /**
- *
+ *This is FerrisWheelAdventure class 
  * @author S545407
  */
 public class FerrisWheelAdventure extends ZooAdventure {

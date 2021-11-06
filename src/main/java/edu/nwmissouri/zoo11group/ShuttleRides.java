@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo11group;
 
 /**
- *
+ *This is ShuttleRides class 
  * @author SarathArrepu
  */
 public class ShuttleRides {

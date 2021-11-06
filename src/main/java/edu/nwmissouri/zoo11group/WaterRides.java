@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo11group;
 
 /**
- *
+ *This is WaterRides class 
  * @author Pinninti Harshikas
  */
 public class WaterRides extends ZooAdventure {

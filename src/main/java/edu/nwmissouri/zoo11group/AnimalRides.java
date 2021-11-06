@@ -1,7 +1,7 @@
 package edu.nwmissouri.zoo11group;
 
 /**
- *
+ *this is an animal rides class
  * @author Alekhya Gandra
  */
 public class AnimalRides {
@@ -32,7 +32,7 @@ public class AnimalRides {
 
     /**
      *
-     * @return noOfMembers
+     * @return noOfMembers of value
      */
 
     public int getNoOfMembers() {
@@ -50,7 +50,7 @@ public class AnimalRides {
 
     /**
      *
-     * @return speed
+     * @return speed of value with speed
      */
     public double getSpeed() {
         return speed;
@@ -67,7 +67,7 @@ public class AnimalRides {
     double speed;
 
     /**
-     * method noofseats
+     * method noofseats displays the null value
      */
     public void noofseats() {
 
@@ -86,7 +86,9 @@ public class AnimalRides {
     public void timeCalculation() {
         System.out.println("The amount of time spent is :" + "2 Hours ");
     }
-
+/**
+ * this is run method
+ */
     public static void run() {
         System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
         System.out.println("Hey - look at the Elephant!");

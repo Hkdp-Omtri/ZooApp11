@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * ZooApp is a Zoo simulation created by 542 Section 05.
  *
- * @author Dr. Case and others
+ * @author Homakesavadurgaprasad Omtri (S544929)
  */
 public class ZooApp {
 

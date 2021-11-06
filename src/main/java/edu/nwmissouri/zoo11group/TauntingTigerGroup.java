@@ -3,7 +3,7 @@ package edu.nwmissouri.zoo11group;
 import java.util.ArrayList;
 
 /**
- *
+ *This is TauntingTigerGroup class 
  * @author Sarath Arrepu (S545027)
  */
 public class TauntingTigerGroup {

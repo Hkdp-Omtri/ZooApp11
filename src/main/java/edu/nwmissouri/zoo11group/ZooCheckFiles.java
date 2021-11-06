@@ -11,7 +11,7 @@ import java.util.ArrayList;
 /**
  * Check for code files in unusual places - root, src, wrong package.
  *
- * @author Denise Case
+ * @author Homakesavadurgaprasad Omtri (S544929)
  */
 public class ZooCheckFiles {
 

@@ -3,7 +3,7 @@ package edu.nwmissouri.zoo11group;
 import java.util.ArrayList;
 
 /**
- *
+ *This is ElephantGroup class 
  * @author Homakesavadurgaprasad OMTRI (S544929)
  */
 public class ElephantGroup {
