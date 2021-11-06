@@ -17,14 +17,17 @@ public class LogRideAdventure extends ZooAdventure {
     }
     @Override
     public void ageLimit(){
-        System.out.println("The age limit should be above 18 years");
+        System.out.println("The age limit should be above 18 years.");
     }
     @Override
     public void idProof(){
-        System.out.println("Governemnt issued card is required");
+        System.out.println("Governemnt issued card is required.");
     }
     @Override
     public void safetyMeasures(){
-        System.out.println("Need to take precautionary measures before entering");
+        System.out.println("Need to take precautionary measures before entering .");
     }
+    public static void run() {
+        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                      
+        System.out.println("Hey - look at the Elephant!"); }
 }

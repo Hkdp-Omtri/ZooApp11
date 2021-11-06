@@ -42,5 +42,8 @@ public class RollerCoasterAdventure extends ZooAdventure {
         
     
     }
+    public static void run() {
+        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                      
+        System.out.println("Hey - look at the Elephant!"); }
     
 }

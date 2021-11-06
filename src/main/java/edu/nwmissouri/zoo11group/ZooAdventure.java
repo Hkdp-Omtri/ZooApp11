@@ -12,6 +12,10 @@ public abstract class ZooAdventure {
     private String Adventurename;
     private int NumberOfCustomers;
     
+    public static void run () 
+    {
+        
+    }
     public void ageLimit(){
     }
     public void idProof(){

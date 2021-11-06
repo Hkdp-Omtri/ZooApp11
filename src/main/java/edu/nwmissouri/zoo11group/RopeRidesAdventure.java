@@ -1,3 +1,4 @@
+
 package edu.nwmissouri.zoo11group;
 
 /**
@@ -35,4 +36,7 @@ public class RopeRidesAdventure extends ZooAdventure {
     {
         System.out.println("SafetyMeasures are taken");
     }
+    public static void run() {
+        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                      
+        System.out.println("Hey - look at the Elephant!"); }
 }

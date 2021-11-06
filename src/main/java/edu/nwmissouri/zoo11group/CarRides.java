@@ -8,7 +8,7 @@ package edu.nwmissouri.zoo11group;
  *
  * @author Homakesavadurgaprasad Omtri (S544929)
  */
-public class CarRides extends ZooRides {
+public class CarRides  {
 
     private double price;
     private double time;
@@ -26,13 +26,16 @@ public class CarRides extends ZooRides {
     public void calculation() {
         System.out.println("For BungeJump you have to sign death wavier");
     }
-@Override
+
     public void ticketprice() {
         
     }
-@Override
+
     public void noofseats(){
         
     }
+    public static void run() {
+        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                      
+        System.out.println("Hey - look at the Elephant!"); }
 
 }

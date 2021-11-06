@@ -4,13 +4,17 @@
  */
 package edu.nwmissouri.zoo11group;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Maddelavedu Pravallika
  */
 public class SkyRides extends ZooRides {
+    
     private double Price;
     private double Miles;
+    private static ArrayList<SkyRides> myGroup;
      /**
      *
      */
@@ -22,6 +26,19 @@ public class SkyRides extends ZooRides {
     /**
      *
      */
+   
+    
+   public static void run() {
+        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                      
+        System.out.println("Hey - look at the Elephant!");                         
+//        for (SkyRides skyrides : myGroup) {                                   
+//            skyrides.noofseats();
+//            skyrides.skyrides();                                  
+//        }
+
+        System.out.println("Nice Elephant - that was really fun!");              
+        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                               
+    }
     @Override
     public void noofseats(){
         

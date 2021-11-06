@@ -1,21 +1,22 @@
+
 package edu.nwmissouri.zoo11group;
 
 /**
  *
  * @author Alekhya Gandra
  */
-public class AnimalRides extends ZooRides{
+public class AnimalRides {
     
     int animalName;
     int noOfMembers;
     double speed;
     
-      @Override
+      
     public void ticketprice()
     {
         
     }
-    @Override
+    
     public void noofseats()
     {
         
@@ -32,4 +33,8 @@ public class AnimalRides extends ZooRides{
     {
         System.out.println("The amount of time spent is :" + "2 Hours ");
     }
+     public static void run() {
+        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                      
+        System.out.println("Hey - look at the Elephant!"); }
+
 }
