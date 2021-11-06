@@ -11,6 +11,40 @@ package edu.nwmissouri.zoo11group;
 public class BungeJumpAdventure extends ZooAdventure {
     
     private boolean signedsafetywavier;
+
+    @Override
+    public String toString() {
+        return "BungeJumpAdventure{" + "signedsafetywavier=" + signedsafetywavier + ", totcustomer=" + totcustomer + '}';
+    }
+/**
+ * 
+ * @return signedsafetywavier value
+ */
+    public boolean isSignedsafetywavier() {
+        return signedsafetywavier;
+    }
+/**
+ * 
+ * @param signedsafetywavier sets the value of signedsafetywavier
+ */
+    public void setSignedsafetywavier(boolean signedsafetywavier) {
+        this.signedsafetywavier = signedsafetywavier;
+    }
+/**
+ * 
+ * @return totcustomer value
+ */
+    public int getTotcustomer() {
+        return totcustomer;
+    }
+    /**
+     * 
+     * @param totcustomer to set the totcustomer
+     */
+
+    public void setTotcustomer(int totcustomer) {
+        this.totcustomer = totcustomer;
+    }
     private int totcustomer;
     /*
     This is ageLimit method displays age

@@ -12,6 +12,67 @@ public class TrainRides extends ZooRides{
    private String reservedNo; 
    private double speed;
    private double time;
+
+    @Override
+    public String toString() {
+        return "TrainRides{" + "reservedNo=" + reservedNo + ", speed=" + speed + ", time=" + time + ", distance=" + distance + '}';
+    }
+/**
+ * 
+ * @return reservedNo
+ */
+    public String getReservedNo() {
+        return reservedNo;
+    }
+/**
+ * 
+ * @param reservedNo sets reservedNo
+ */
+    public void setReservedNo(String reservedNo) {
+        this.reservedNo = reservedNo;
+    }
+/**
+ * 
+ * @return speed value
+ */
+    public double getSpeed() {
+        return speed;
+    }
+/**
+ * 
+ * @param speed sets speed value
+ */
+    public void setSpeed(double speed) {
+        this.speed = speed;
+    }
+/**
+ * 
+ * @return time value
+ */
+    public double getTime() {
+        return time;
+    }
+/**
+ * 
+ * @param time sets the time value
+ */
+    public void setTime(double time) {
+        this.time = time;
+    }
+/**
+ * 
+ * @return distance value
+ */
+    public double getDistance() {
+        return distance;
+    }
+/**
+ * 
+ * @param distance sets the distance value
+ */
+    public void setDistance(double distance) {
+        this.distance = distance;
+    }
    private double distance;
    
     /**

@@ -10,6 +10,35 @@ package edu.nwmissouri.zoo11group;
  */
 public class ShuttleRides {
     private String customerName;
+
+    @Override
+    public String toString() {
+        return "ShuttleRides{" + "customerName=" + customerName + ", doubleAxle=" + doubleAxle + ", noofcustomers=" + noofcustomers + '}';
+    }
+
+    public String getCustomerName() {
+        return customerName;
+    }
+
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
+    }
+
+    public boolean isDoubleAxle() {
+        return doubleAxle;
+    }
+
+    public void setDoubleAxle(boolean doubleAxle) {
+        this.doubleAxle = doubleAxle;
+    }
+
+    public int getNoofcustomers() {
+        return noofcustomers;
+    }
+
+    public void setNoofcustomers(int noofcustomers) {
+        this.noofcustomers = noofcustomers;
+    }
     private boolean doubleAxle;
     private int noofcustomers;
     /*
