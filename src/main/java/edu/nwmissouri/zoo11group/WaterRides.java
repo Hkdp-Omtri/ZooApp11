@@ -17,6 +17,9 @@ public class WaterRides extends ZooAdventure {
     private int noOfPeople;
     private int totalCost;
 
+    /**
+     * ageLimit method
+     */
     @Override
     public void ageLimit() {
         System.out.println("The age limit of the children is above 5 years");
@@ -24,28 +27,45 @@ public class WaterRides extends ZooAdventure {
 
     }
 
+    /**
+     * idProof method
+     */
     @Override
     public void idProof() {
         System.out.println("The id proof required for the children in adhar card");
 
     }
 
+    /**
+     * safetyMeasures method
+     */
     @Override
-
     public void safetyMeasures() {
         System.out.println("The Saftey measures required are No carrying extra lugguage");
     }
 
+    /**
+     * method typeOfRide
+     */
     public void typeOfRide() {
         System.out.println("Enter the type of the Ride u want to do in WaterRides");
 
     }
+    /**
+     * method run 
+     */
 
     public static void run() {
-        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
-        System.out.println("Hey - look at the Elephant!");
+        System.out.println("+++++++++++++++++++++++++++++++++++++++++++");
+        System.out.println("What games do you wanna join in water rides");
+        System.out.println("Look there is a Aqua Loop Game");
     }
 
+    /**
+     * totalCostOfRide method gives the totalcost
+     * @param noOfPeople
+     * @return totalcost
+     */
     public int totalCostOfRide(int noOfPeople) {
 
         int costOfTicket = 56;

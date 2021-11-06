@@ -39,7 +39,7 @@ public class FerrisWheelAdventure extends ZooAdventure {
     public void experience(){
         System.out.println("checking the experience conducted by zoo adventure");}
     
-    public static void run() {
-        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                      
-        System.out.println("Hey - look at the Elephant!"); }
+public static void run() {
+System.out.println("============ THIS IS FERRISWHEEL ADVENTURE =============");
+System.out.println("We Are Here To Take Any Adventure"); }
 }

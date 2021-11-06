@@ -39,9 +39,8 @@ public class TrainRides extends ZooRides{
         System.out.println("Calculating the speed of the train");
        return 0;
    }
-    
-    public static void run() {
-        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                      
-        System.out.println("Hey - look at the Elephant!"); }
+  public static void run() {
+       System.out.println("======= THIS IS TRAIN RIDES ==========");
+       System.out.println("I Am Here To Present About Available Train Rides "); }
    
 }

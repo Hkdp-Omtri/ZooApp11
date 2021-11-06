@@ -15,12 +15,22 @@ public class CycleRides {
     private int speed;
     private int count;
     private int Time;
+    /**
+     * ticketprice method
+    */
     public void ticketprice() {
     }
-    
+    /**
+     * noofseats method
+     */
     public void noofseats() {
         
     }
+    /**
+     * distance method which gives distance
+     * @param x
+     * @return distance
+     */
     public int distance(int x) {
         int speed = 50;
         int time = 5;
@@ -28,12 +38,18 @@ public class CycleRides {
         System.out.println("The distance travelled by the Cycle ride is");
        return distance;  
     }
+    /**
+     * result method which displays the result
+     */
     public void result() {
     System.out.println("The result of the cycle rides is :" );
     System.out.println("Harshika won the first price");   
     }    
+    /**
+     * run method which displays the statement
+     */
     public static void run() {
-        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                      
-        System.out.println("Hey - look at the Elephant!"); }
+        System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");                      
+        System.out.println("This is a Cycle Ride"); }
     }   
     
