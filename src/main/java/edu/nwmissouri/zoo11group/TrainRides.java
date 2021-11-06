@@ -5,28 +5,31 @@
 package edu.nwmissouri.zoo11group;
 
 /**
- *
+ * This is TrainRides class which defines the rides available in rides
  * @author S545407
  */
 public class TrainRides extends ZooRides{
    private String reservedNo; 
    private double speed;
    private double time;
-
+/**
+ * 
+ * @return string of all the declared variables
+ */
     @Override
     public String toString() {
         return "TrainRides{" + "reservedNo=" + reservedNo + ", speed=" + speed + ", time=" + time + ", distance=" + distance + '}';
     }
 /**
  * 
- * @return reservedNo
+ * @return reservedNo it will gives you the reserved number
  */
     public String getReservedNo() {
         return reservedNo;
     }
 /**
  * 
- * @param reservedNo sets reservedNo
+ * @param reservedNo seats reservedNo will be 
  */
     public void setReservedNo(String reservedNo) {
         this.reservedNo = reservedNo;
@@ -84,22 +87,36 @@ public class TrainRides extends ZooRides{
 }
 
     /**
-     *
+     * it will defines the no of seats
      */
     @Override
     public void noofseats(){
     }
+    /**
+     * it will define the train rides
+     */
     public static void trainRides(){
     
     }
+    /**
+     * 
+     * @return String value of seat number
+     */
     public static String seatNumber(){
         System.out.println("The alloted seta number for your ride");
        return null;
    }
+    /**
+     * 
+     * @return double value of the speed
+     */
     public static double speedCalculation(){
         System.out.println("Calculating the speed of the train");
        return 0;
    }
+    /**
+     * it will execute the run method
+     */
   public static void run() {
        System.out.println("======= THIS IS TRAIN RIDES ==========");
        System.out.println("I Am Here To Present About Available Train Rides "); }
