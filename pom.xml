@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ZooApp</name>
 	<description>Demo project for OOP principles</description>
+	<url>https://zooapp11.herokuapp.com/</url>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
