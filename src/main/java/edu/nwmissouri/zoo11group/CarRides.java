@@ -16,23 +16,23 @@ public class CarRides  {
     private int age;
 
     public void carRides() {
-//        System.out.println("The age must me above 18 years");
-//    }
-//
-//    public void coach() {
-//        System.out.println("Choose which time of slot number needed ");
-//    }
-//
-//    public void calculation() {
-//        System.out.println("For BungeJump you have to sign death wavier");
-//    }
-//
-//    public void ticketprice() {
-//        
-//    }
-//
-//    public void noofseats(){
-//        
+       System.out.println("The age must me above 18 years");
+   }
+
+    public void coach() {
+        System.out.println("Choose which time of slot number needed ");
+   }
+
+    public void calculation() {
+       System.out.println("For BungeJump you have to sign death wavier");
+    }
+
+    public void ticketprice() {
+        
+   }
+
+  public void noofseats(){
+       
     }
     public static void run() {
         System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");                      
