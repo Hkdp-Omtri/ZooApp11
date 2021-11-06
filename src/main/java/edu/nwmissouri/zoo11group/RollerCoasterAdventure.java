@@ -16,19 +16,32 @@ public class RollerCoasterAdventure extends ZooAdventure {
     public String toString() {
         return "RollerCoasterAdventure{" + "nameOfThePerson=" + nameOfThePerson + ", isCondition=" + isCondition + '}';
     }
-
+/**
+ * 
+ * @return nameOfThePerson value
+ */
     public String getNameOfThePerson() {
         return nameOfThePerson;
     }
 
+    /**
+     * 
+     * @param nameOfThePerson sets the nameOfThePerson value
+     */
     public void setNameOfThePerson(String nameOfThePerson) {
         this.nameOfThePerson = nameOfThePerson;
     }
-
+/**
+ * 
+ * @return isCondition value
+ */
     public boolean isIsCondition() {
         return isCondition;
     }
-
+/**
+ * 
+ * @param isCondition sets isCondition
+ */
     public void setIsCondition(boolean isCondition) {
         this.isCondition = isCondition;
     }

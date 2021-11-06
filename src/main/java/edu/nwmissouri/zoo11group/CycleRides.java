@@ -18,35 +18,61 @@ public class CycleRides {
     public String toString() {
         return "CycleRides{" + "distance=" + distance + ", speed=" + speed + ", count=" + count + ", Time=" + Time + '}';
     }
-
+/**
+ * 
+ * @return distance value
+ */
     public int getDistance() {
         return distance;
     }
-
+/**
+ * 
+ * @param distance sets the distance value
+ */
     public void setDistance(int distance) {
         this.distance = distance;
     }
-
+/**
+ * 
+ * @return getSpeed value
+ */
     public int getSpeed() {
         return speed;
     }
-
+/**
+ * 
+ * @param speed sets the speed value
+ */
     public void setSpeed(int speed) {
         this.speed = speed;
     }
-
+/**
+ * 
+ * @return count value 
+ */
     public int getCount() {
         return count;
     }
 
+    /**
+     * 
+     * @param count sets the count value
+     */
     public void setCount(int count) {
         this.count = count;
     }
+    /**
+     * 
+     * @return time
+     */
 
     public int getTime() {
         return Time;
     }
-
+/**
+ * 
+ * @param Time sets the time value
+ */
     public void setTime(int Time) {
         this.Time = Time;
     }

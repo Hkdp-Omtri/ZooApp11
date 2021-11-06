@@ -16,19 +16,31 @@ public class FerrisWheelAdventure extends ZooAdventure {
     public String toString() {
         return "FerrisWheelAdventure{" + "noOfRotations=" + noOfRotations + ", height=" + height + '}';
     }
-
+/**
+ * 
+ * @return noOfRotations value
+ */
     public int getNoOfRotations() {
         return noOfRotations;
     }
-
+/**
+ * 
+ * @param noOfRotations sets noOfRotations
+ */
     public void setNoOfRotations(int noOfRotations) {
         this.noOfRotations = noOfRotations;
     }
-
+/**
+ * 
+ * @return height value
+ */
     public double getHeight() {
         return height;
     }
-
+/**
+ * 
+ * @param height sets height value
+ */
     public void setHeight(double height) {
         this.height = height;
     }

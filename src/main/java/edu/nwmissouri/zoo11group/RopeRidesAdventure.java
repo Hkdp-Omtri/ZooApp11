@@ -13,19 +13,31 @@ public class RopeRidesAdventure extends ZooAdventure {
     public String toString() {
         return "RopeRidesAdventure{" + "noOfMembers=" + noOfMembers + ", speed=" + speed + '}';
     }
-
+/**
+ * 
+ * @return noOfMembers
+ */
     public int getNoOfMembers() {
         return noOfMembers;
     }
-
+/**
+ * 
+ * @param noOfMembers sets noOfMembers value
+ */
     public void setNoOfMembers(int noOfMembers) {
         this.noOfMembers = noOfMembers;
     }
-
+/**
+ * 
+ * @return speed value
+ */
     public double getSpeed() {
         return speed;
     }
-
+/**
+ * 
+ * @param speed sets speed value
+ */
     public void setSpeed(double speed) {
         this.speed = speed;
     }

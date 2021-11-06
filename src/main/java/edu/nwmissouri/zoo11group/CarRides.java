@@ -14,35 +14,59 @@ public class CarRides {
     public String toString() {
         return "CarRides{" + "price=" + price + ", time=" + time + ", distance=" + distance + ", age=" + age + '}';
     }
-
+/**
+ * 
+ * @return price value
+ */
     public double getPrice() {
         return price;
     }
-
+/**
+ * 
+ * @param price sets the price value
+ */
     public void setPrice(double price) {
         this.price = price;
     }
-
+/**
+ * 
+ * @return time value
+ */
     public double getTime() {
         return time;
     }
-
+/**
+ * 
+ * @param time sets the time value
+ */
     public void setTime(double time) {
         this.time = time;
     }
-
+/**
+ * 
+ * @return distance value
+ */
     public double getDistance() {
         return distance;
     }
-
+/**
+ * 
+ * @param distance sets the distance value
+ */
     public void setDistance(double distance) {
         this.distance = distance;
     }
-
+/**
+ * 
+ * @return age value
+ */
     public int getAge() {
         return age;
     }
-
+/**
+ * 
+ * @param age sets the age value
+ */
     public void setAge(int age) {
         this.age = age;
     }

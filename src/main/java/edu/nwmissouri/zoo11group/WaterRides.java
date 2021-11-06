@@ -17,35 +17,60 @@ public class WaterRides extends ZooAdventure {
     public String toString() {
         return "WaterRides{" + "adventureName=" + adventureName + ", noOfCustomer=" + noOfCustomer + ", noOfPeople=" + noOfPeople + ", totalCost=" + totalCost + '}';
     }
-
+/**
+ * 
+ * @return adventureName value
+ */
     public String getAdventureName() {
         return adventureName;
     }
-
+/**
+ * 
+ * @param adventureName sets the adventureName value
+ */
     public void setAdventureName(String adventureName) {
         this.adventureName = adventureName;
     }
+    /**
+     * 
+     * @return noOfCustomer value
+     */
 
     public int getNoOfCustomer() {
         return noOfCustomer;
     }
-
+/**
+ * 
+ * @param noOfCustomer sets noOfCustomer value
+ */
     public void setNoOfCustomer(int noOfCustomer) {
         this.noOfCustomer = noOfCustomer;
     }
-
+/**
+ * 
+ * @return noOfPeople value
+ */
     public int getNoOfPeople() {
         return noOfPeople;
     }
-
+/**
+ * 
+ * @param noOfPeople sets the noOfPeople value
+ */
     public void setNoOfPeople(int noOfPeople) {
         this.noOfPeople = noOfPeople;
     }
-
+/**
+ * 
+ * @return totalCost value
+ */
     public int getTotalCost() {
         return totalCost;
     }
-
+/**
+ * 
+ * @param totalCost sets the totalCost value
+ */
     public void setTotalCost(int totalCost) {
         this.totalCost = totalCost;
     }

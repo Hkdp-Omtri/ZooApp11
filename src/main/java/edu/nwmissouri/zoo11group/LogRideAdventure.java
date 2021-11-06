@@ -11,11 +11,17 @@ package edu.nwmissouri.zoo11group;
 public class LogRideAdventure extends ZooAdventure {
 
     private int entryTime;
-
+/**
+ * 
+ * @return entryTime value
+ */
     public int getEntryTime() {
         return entryTime;
     }
-
+/**
+ * 
+ * @param entryTime sets entryTime value
+ */
     public void setEntryTime(int entryTime) {
         this.entryTime = entryTime;
     }
@@ -24,11 +30,18 @@ public class LogRideAdventure extends ZooAdventure {
     public String toString() {
         return "LogRideAdventure{" + "entryTime=" + entryTime + ", capacity=" + capacity + '}';
     }
-
+/**
+ * 
+ * @return capacity value
+ */
     public double getCapacity() {
         return capacity;
     }
 
+    /**
+     * 
+     * @param capacity sets capacity value
+     */
     public void setCapacity(double capacity) {
         this.capacity = capacity;
     }

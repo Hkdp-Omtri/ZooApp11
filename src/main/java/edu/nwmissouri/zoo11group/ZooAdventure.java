@@ -16,19 +16,31 @@ public abstract class ZooAdventure {
     public String toString() {
         return "ZooAdventure{" + "Adventurename=" + Adventurename + ", NumberOfCustomers=" + NumberOfCustomers + '}';
     }
-
+/**
+ * 
+ * @return Adventurename name
+ */
     public String getAdventurename() {
         return Adventurename;
     }
-
+/**
+ * 
+ * @param Adventurename sets Adventurename value
+ */
     public void setAdventurename(String Adventurename) {
         this.Adventurename = Adventurename;
     }
-
+/**
+ * 
+ * @return NumberOfCustomers value
+ */
     public int getNumberOfCustomers() {
         return NumberOfCustomers;
     }
-
+/**
+ * 
+ * @param NumberOfCustomers sets NumberOfCustomers value
+ */
     public void setNumberOfCustomers(int NumberOfCustomers) {
         this.NumberOfCustomers = NumberOfCustomers;
     }
