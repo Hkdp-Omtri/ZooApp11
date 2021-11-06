@@ -12,23 +12,27 @@ public class AnimalRides {
     double speed;
     
       
-    public void ticketprice()
-    {
-        
-    }
+   
+    /**
+     * method noofseats
+     */
     
     public void noofseats()
     {
         
     }
+    /**
+     * method ticketPrice gives the ticketprice
+     */
     public void  ticketPrice()
     {
         System.out.println("The ticketPrice is :" + 50.00);
     }
-    public void noOfSeats()
-    {
-        System.out.println("Number of Seats available is  :" + 3);
-    }
+    
+    /**
+     * method  timeCalculation gives the time in hours
+     */
+    
     public void timeCalculation()
     {
         System.out.println("The amount of time spent is :" + "2 Hours ");
