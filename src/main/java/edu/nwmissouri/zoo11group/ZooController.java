@@ -175,12 +175,15 @@ public class ZooController {
             }
             case 16 -> {
                 TrainRides.run();
+                TrainRides.speedCalculation();
+                TrainRides.seatNumber();
+                TrainRides.trainRides();
             }
             case 17 -> {
                 WaterRides.run();
             }
             case 18 -> {
-                ShuttleRides.run();
+                AnimalRides.run();
             }
             default -> {
             }
