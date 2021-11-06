@@ -33,4 +33,8 @@ public class AnimalRides {
     {
         System.out.println("The amount of time spent is :" + "2 Hours ");
     }
+     public static void run() {
+        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");                      
+        System.out.println("Hey - look at the Elephant!"); }
+
 }
