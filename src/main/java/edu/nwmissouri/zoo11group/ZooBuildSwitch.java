@@ -19,7 +19,7 @@ import java.util.TreeMap;
  */
 public class ZooBuildSwitch {
 
-    private static final String relativePathToPackage = "/src/main/java/edu/nwmissouri/zoo04lab";
+    private static final String relativePathToPackage = "/src/main/java/edu/nwmissouri/zoo11group";
     private static final String nonAnimalsFileString = "SOURCE_NON_ANIMAL_FILES.txt";
 
     public static Map<Integer, String> getAllAnimalMap() {
