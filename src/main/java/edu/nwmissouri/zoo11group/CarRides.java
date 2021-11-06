@@ -8,34 +8,55 @@ package edu.nwmissouri.zoo11group;
  *
  * @author Homakesavadurgaprasad Omtri (S544929)
  */
-public class CarRides  {
+public class CarRides {
 
     private double price;
     private double time;
     private double distance;
     private int age;
 
+    /*
+    This is CarRides method displays age limit
+     */
     public void carRides() {
-       System.out.println("The age must me above 18 years");
-   }
+        System.out.println("The age must me above 18 years");
+    }
 
+    /*
+    This is coach method to chose the slot number
+     */
     public void coach() {
         System.out.println("Choose which time of slot number needed ");
-   }
+    }
 
+    /*
+    This is calculation method to accept death waiver
+     */
     public void calculation() {
-       System.out.println("For BungeJump you have to sign death wavier");
+        System.out.println("For BungeJump you have to sign death wavier");
     }
 
+    /*
+    This is t meicketprice display null
+     */
     public void ticketprice() {
-        
-   }
 
-  public void noofseats(){
-       
     }
+
+    /*
+    This is noofseats display null
+     */
+
+    public void noofseats() {
+
+    }
+
+    /*
+    This is run method displays 
+     */
     public static void run() {
-        System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");                      
-        System.out.println("Hey look buddies it is a Car Ride"); }
+        System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
+        System.out.println("Hey look buddies it is a Car Ride");
+    }
 
 }
