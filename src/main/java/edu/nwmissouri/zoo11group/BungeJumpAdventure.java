@@ -9,36 +9,49 @@ package edu.nwmissouri.zoo11group;
  * @author Sarath Arrepu
  */
 public class BungeJumpAdventure extends ZooAdventure {
-
+    
     private boolean signedsafetywavier;
     private int totcustomer;
-
+    /*
+    This is ageLimit method displays age
+    */
     @Override
     public void ageLimit() {
         System.out.println("the age limit is 20+ years");
     }
-
+    /*
+    This is idProof method and it asks for idProof
+    */
     @Override
     public void idProof() {
         System.out.println("We need valid passport");
     }
-
+    /*
+    This is safetyMeasures method
+    */
     @Override
     public void safetyMeasures() {
         System.out.println("For BungeJump you have to sign death wavier");
     }
-
+    /*
+    This is lengthofjump method it has length of the jump
+    */
     public void lengthofjump() {
         System.out.println("This a 100 meter jump");
     }
-
+    /*
+    This is duration method displays duration
+    */
     public double duration() {
         return 10.0;
     }
-
+    /*
+    This is run method displays 
+    */
     public static void run() {
         System.out.println("********************************");
         System.out.println("Bunge Jump Adventure");
     }
 
 }
+
