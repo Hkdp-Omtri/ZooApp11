@@ -6,7 +6,7 @@ package edu.nwmissouri.zoo11group;
 
 /**
  *
- * @author S545254
+ * @author Maddelavedu Pravallika
  */
 public class RollerCoasterAdventure extends ZooAdventure {
     private String nameOfThePerson;
