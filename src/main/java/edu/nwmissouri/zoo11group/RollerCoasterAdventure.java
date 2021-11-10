@@ -21,7 +21,7 @@ public class RollerCoasterAdventure extends ZooAdventure {
  * @return nameOfThePerson value
  */
     public String getNameOfThePerson() {
-        return nameOfThePerson;
+        return nameOfThePerson="";
     }
 
     /**
