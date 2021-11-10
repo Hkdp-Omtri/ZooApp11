@@ -55,8 +55,8 @@ public class ElephantGroupTest {
     @Test
     public void testRun() {
         System.out.println("run");
-        ElephantGroup.run();
         ElephantGroup.create();
+         ElephantGroup.run();
         assertTrue(true);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
