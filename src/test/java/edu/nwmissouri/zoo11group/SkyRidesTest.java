@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author S545254
+ * @author Pravallika(S545254)
  */
 public class SkyRidesTest {
     
