@@ -10,7 +10,7 @@ import java.util.Scanner;
  *This is CycleRides rides 
  * @author Pinninti Harshika
  */
-public class CycleRides {
+public class CycleRides extends ZooRides{
     private int distance;
     private int speed;
 
@@ -81,38 +81,43 @@ public class CycleRides {
     /**
      * ticketprice method
     */
+    @Override
     public void ticketprice() {
+       System.out.println("The ticket price of the cycle ride is $50");
     }
     /**
      * noofseats method
      */
+    @Override
     public void noofseats() {
-        
+         System.out.println("Number of seats available is 2");
     }
     /**
      * distance method which gives distance
-     * @param x
+    
      * @return distance
      */
-    public int distance(int x) {
+    public int distance() {
         int speed = 50;
         int time = 5;
         distance = speed /time;
-        System.out.println("The distance travelled by the Cycle ride is");
+        System.out.println("The distance travelled by the Cycle ride is 10");
        return distance;  
     }
     /**
      * result method which displays the result
      */
     public void result() {
-    System.out.println("The result of the cycle rides is :" );
-    System.out.println("Harshika won the first price");   
+    System.out.println("The result of the cycle rides is Harshika");
+    //System.out.println("Harshika won the first price");   
     }    
     /**
      * run method which displays the statement
      */
     public static void run() {
-        System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");                      
+       // System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");                      
         System.out.println("This is a Cycle Ride"); }
     }   
+    
+
     
