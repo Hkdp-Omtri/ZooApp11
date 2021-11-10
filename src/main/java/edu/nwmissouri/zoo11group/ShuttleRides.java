@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo11group;
 
 /**
- *
+ *This is ShuttleRides class 
  * @author SarathArrepu
  */
 public class ShuttleRides {
@@ -15,23 +15,38 @@ public class ShuttleRides {
     public String toString() {
         return "ShuttleRides{" + "customerName=" + customerName + ", doubleAxle=" + doubleAxle + ", noofcustomers=" + noofcustomers + '}';
     }
-
+/**
+ * 
+ * @return customerName value
+ */
     public String getCustomerName() {
         return customerName;
     }
-
+/**
+ * 
+ * @param customerName sets customerName value
+ */
     public void setCustomerName(String customerName) {
         this.customerName = customerName;
     }
-
+/**
+ * 
+ * @return doubleAxle value
+ */
     public boolean isDoubleAxle() {
         return doubleAxle;
     }
-
+/**
+ * 
+ * @param doubleAxle sets doubleAxle value
+ */
     public void setDoubleAxle(boolean doubleAxle) {
         this.doubleAxle = doubleAxle;
     }
-
+/**
+ * 
+ * @return noofcustomers value
+ */
     public int getNoofcustomers() {
         return noofcustomers;
     }

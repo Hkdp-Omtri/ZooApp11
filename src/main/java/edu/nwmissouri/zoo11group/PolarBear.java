@@ -6,7 +6,7 @@
 package edu.nwmissouri.zoo11group;
 
 /**
- *
+ *This is PolarBear class 
  * @author Maddelavedu Pravallika
  */
 public class PolarBear extends Animal {

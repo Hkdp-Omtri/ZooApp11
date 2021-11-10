@@ -6,7 +6,6 @@ package edu.nwmissouri.zoo11group;
 
 /**
  * This is TrainRides class which defines the rides available in rides
- *
  * @author S545407
  */
 public class TrainRides extends ZooRides {

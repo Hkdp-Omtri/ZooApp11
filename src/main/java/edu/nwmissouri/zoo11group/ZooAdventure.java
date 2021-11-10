@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo11group;
 
 /**
- *
+ *This is PolarBear class 
  * @author S545407
  */
 public abstract class ZooAdventure {

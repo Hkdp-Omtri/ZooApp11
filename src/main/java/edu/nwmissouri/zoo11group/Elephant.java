@@ -6,7 +6,7 @@
 package edu.nwmissouri.zoo11group;
 
 /**
- *
+ *This is Elephant class 
  * @author Homakesavadurgaprasad OMTRI (S544929)
  */
 public class Elephant extends Animal {
