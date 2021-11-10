@@ -7,7 +7,7 @@ package edu.nwmissouri.zoo11group;
 import java.util.ArrayList;
 
 /**
- *This is SkyRides class 
+ * This is SkyRides class 
  * @author Maddelavedu Pravallika(s545254)
  */
 public class SkyRides extends ZooRides {
