@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo11group;
 
 /**
- *
+ * This is a BungeJumpAdventure class 
  * @author Sarath Arrepu
  */
 public class BungeJumpAdventure extends ZooAdventure {
@@ -18,7 +18,7 @@ public class BungeJumpAdventure extends ZooAdventure {
     }
 /**
  * 
- * @return signedsafetywavier value
+ * @return signedsafetywavier  value
  */
     public boolean isSignedsafetywavier() {
         return signedsafetywavier;
@@ -31,15 +31,14 @@ public class BungeJumpAdventure extends ZooAdventure {
         this.signedsafetywavier = signedsafetywavier;
     }
 /**
- * 
- * @return totcustomer value
+ * @return customer value of customer
  */
     public int getTotcustomer() {
         return totcustomer;
     }
     /**
      * 
-     * @param totcustomer to set the totcustomer
+     * @param totcustomer to set the customer
      */
 
     public void setTotcustomer(int totcustomer) {
@@ -73,9 +72,10 @@ public class BungeJumpAdventure extends ZooAdventure {
     public void lengthofjump() {
         System.out.println("This a 100 meter jump");
     }
-    /*
-    This is duration method displays duration
-    */
+ /**
+  * 
+  * @return duration value of time
+  */
     public double duration() {
         return 10.0;
     }

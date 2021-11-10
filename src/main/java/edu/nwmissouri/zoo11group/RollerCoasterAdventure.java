@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo11group;
 
 /**
- *
+ *This is RollerCoasterAdventure class 
  * @author Maddelavedu Pravallika(s545254)
  */
 public class RollerCoasterAdventure extends ZooAdventure {

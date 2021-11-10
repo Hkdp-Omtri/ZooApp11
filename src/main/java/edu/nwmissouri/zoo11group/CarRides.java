@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo11group;
 
 /**
- *
+ *This is CarRides class
  * @author Homakesavadurgaprasad Omtri (S544929)
  */
 public class CarRides {
@@ -16,7 +16,7 @@ public class CarRides {
     }
 /**
  * 
- * @return price value
+ * @return price value of advanture
  */
     public double getPrice() {
         return price;
@@ -30,7 +30,7 @@ public class CarRides {
     }
 /**
  * 
- * @return time value
+ * @return time value of time
  */
     public double getTime() {
         return time;
@@ -44,7 +44,7 @@ public class CarRides {
     }
 /**
  * 
- * @return distance value
+ * @return distance value of distance 
  */
     public double getDistance() {
         return distance;
@@ -58,7 +58,7 @@ public class CarRides {
     }
 /**
  * 
- * @return age value
+ * @return age value of customer
  */
     public int getAge() {
         return age;

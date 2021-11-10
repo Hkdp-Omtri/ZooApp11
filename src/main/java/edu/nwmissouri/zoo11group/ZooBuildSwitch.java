@@ -15,7 +15,7 @@ import java.util.TreeMap;
 /**
  * Build our switch statement so we can see all the animals.
  *
- * @author Denise Case
+ * @author Homakesavadurgaprasad Omtri (S544929)
  */
 public class ZooBuildSwitch {
 

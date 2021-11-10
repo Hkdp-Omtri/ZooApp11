@@ -7,7 +7,7 @@ package edu.nwmissouri.zoo11group;
 import java.util.Scanner;
 
 /**
- *
+ *This is CycleRides rides 
  * @author Pinninti Harshika
  */
 public class CycleRides {

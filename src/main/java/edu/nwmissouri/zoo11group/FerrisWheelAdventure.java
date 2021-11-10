@@ -6,7 +6,6 @@ package edu.nwmissouri.zoo11group;
 
 /**
  * This is the class which defines the Ferris wheel
- *
  * @author S545407
  */
 public class FerrisWheelAdventure extends ZooAdventure {

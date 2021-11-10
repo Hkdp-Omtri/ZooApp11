@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo11group;
 
 /**
- *
+ *This is LogRideAdventure class 
  * @author Homakesavadurgaprasad Omtri(S544929)
  */
 public class LogRideAdventure extends ZooAdventure {
