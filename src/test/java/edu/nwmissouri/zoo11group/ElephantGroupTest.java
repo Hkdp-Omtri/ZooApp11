@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author S544929
+ * @author Homakesavadurgaprasad(S544929)
  */
 public class ElephantGroupTest {
 
