@@ -13,7 +13,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
+<<<<<<< HEAD
  * @author Pravallika(S545254)
+=======
+ * @author Maddelavedu Pravallika(s545254)
+>>>>>>> 847f39f46648749a16844ced7488ab0d5725c9df
  */
 public class RollerCoasterAdventureTest {
     

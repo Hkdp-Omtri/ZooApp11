@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author Pravallika(S545254)
+ * @author Maddelavedu Pravallika(s545254)
  */
 public class PolarBearGroupTest {
     
