@@ -12,20 +12,21 @@ public class BungeJumpAdventure extends ZooAdventure {
     
     private boolean signedsafetywavier;
 
+
     @Override
     public String toString() {
         return "BungeJumpAdventure{" + "signedsafetywavier=" + signedsafetywavier + ", totcustomer=" + totcustomer + '}';
     }
 /**
  * 
- * @return signedsafetywavier  value
+ * @return isSignedsafetywavier value
  */
     public boolean isSignedsafetywavier() {
         return signedsafetywavier;
     }
 /**
  * 
- * @param signedsafetywavier sets the value of signedsafetywavier
+ * @param signedsafetywavier sets the value of setSignedsafetywavier
  */
     public void setSignedsafetywavier(boolean signedsafetywavier) {
         this.signedsafetywavier = signedsafetywavier;
