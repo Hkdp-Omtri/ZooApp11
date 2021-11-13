@@ -14,7 +14,7 @@ Oops Team Assignment for Web application :earth_asia:
 ===============
 <ul>
   <li>
-Explore API at <https://hkdp-omtri.github.io/ZooApp11/edu/nwmissouri/zoo11group/package-summary.html>
+Explore API at [https://hkdp-omtri.github.io/ZooApp11/edu/nwmissouri/zoo11group/package-summary.html](https://hkdp-omtri.github.io/ZooApp11/edu/nwmissouri/zoo11group/package-summary.html)
     </li>
  </ul>
   
@@ -23,7 +23,7 @@ Explore API at <https://hkdp-omtri.github.io/ZooApp11/edu/nwmissouri/zoo11group/
 ===============
 <ul>
   <li>
-<https://hkdp-omtri.github.io/Zoo_X/index.html>
+Explore test coverage at <https://hkdp-omtri.github.io/Zoo_X/index.html>
     </li>
  </ul>
   
