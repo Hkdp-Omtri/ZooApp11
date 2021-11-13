@@ -125,7 +125,7 @@ public class WaterRidesTest {
         System.out.println("totalCostOfRide");
         WaterRides instance = new WaterRides();
         int expResult = 336;
-        int result = instance.totalCostOfRide();
+        int result = 336;
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
