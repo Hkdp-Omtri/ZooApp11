@@ -11,11 +11,28 @@
     </parent>
     <groupId>edu.nwmissouri.zoo11group</groupId>
     <artifactId>ZooApp</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
     <name>ZooApp</name>
     <description>Demo project for OOP principles</description>
     <properties>
         <java.version>17</java.version>
+         <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <maven.compiler.release>${java.version}</maven.compiler.release>
+
+        <junit>5.6.2</junit>
+        
+        <!-- Plugin versions -->
+        <maven.shade>3.2.2</maven.shade>
+        <maven.clean>3.1.0</maven.clean>
+        <maven.resources>3.1.0</maven.resources>
+        <maven.compiler>3.8.1</maven.compiler>
+        <maven.surefire>3.0.0-M5</maven.surefire>
+        <maven.jar>3.2.0</maven.jar>
+        <maven.install>3.0.0-M1</maven.install>
+        
+        <maven.test.failure.ignore>true</maven.test.failure.ignore>
     </properties>
     <dependencies>
         <dependency>
@@ -122,6 +139,37 @@
                 </executions>
                 
             </plugin>
+             <!-- Add Spring Boot Maven plugin -->
+            <!-- To get Maven to package our web app as an executable jar -->
+            
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <configuration>
+                            <mainClass>edu.nwmissouri.zoo04lab.ZooWebApp</mainClass>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            
+            <!-- Previous plugins (extra functionality) -->
+           
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.3.1</version>
+                <configuration>
+                    <reportOutputDirectory>${basedir}</reportOutputDirectory>
+                    <destDir>docs</destDir>
+                    <sourcepath>${basedir}/src/main/java/</sourcepath>
+                    <sourceFileExcludes>     
+                    </sourceFileExcludes>
+                </configuration>
+            </plugin> 
+           
         </plugins>
     </build>
 

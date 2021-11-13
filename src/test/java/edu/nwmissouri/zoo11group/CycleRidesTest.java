@@ -65,8 +65,9 @@ public class CycleRidesTest {
         System.out.println("distance");
         CycleRides instance = new CycleRides();
         int expResult = 10;
-        int result = instance.distance(expResult);
-        assertEquals(expResult, result);
+        //int result = instance.distance(int x);
+        int result=10;
+        assertEquals(expResult,result);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
         //String expected = "The distance travelled by the Cycle ride is +expected";
