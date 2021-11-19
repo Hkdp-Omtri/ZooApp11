@@ -59,7 +59,7 @@ public int JavaException() {
 
     /**
      *
-     * @param args
+     * @param main exception handling class 
      */
     public static void main(String args[]){
    Elephant E = new Elephant("E");
