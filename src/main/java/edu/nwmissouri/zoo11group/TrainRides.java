@@ -11,7 +11,7 @@ import java.util.Scanner;
 /**
  * This is TrainRides class which defines the rides available in rides
  *
- * @author S545407
+ * @author TakkellapatiVenkataPrabhakar(S545407)
  */
 public class TrainRides extends ZooRides {
 
