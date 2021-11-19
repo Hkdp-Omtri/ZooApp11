@@ -102,6 +102,26 @@ public class ProngHorn extends Animal {
         double c = getProngHornAddition(a, b);
         System.out.printf("I know ProngHornAddition! %4.2f plus %d is %4.2f \n", a, b, c);
     } 
+    /**
+    * function exceptions
+    */
+    
+      public int exceptions() {
+          
+        int a = 0;
+        b = 2;
+        int div;
+        try
+        {
+          div = b/a;
+        }
+        // doesn't matches with ArithmeticException
+        catch(NumberFormatException ex)
+        {
+           System.out.println("NumberFormatException is occured"); 
+        }
+        return div;
+    }
     
    /**
     * main method 
@@ -114,6 +134,7 @@ public class ProngHorn extends Animal {
         p.mul(3,2);
         p.sub(3,2);
         p.profess1();
+        p.exceptions();
         
         Gender c = Gender.Male;
         System.out.println("The gender of pronghorn is : " + c);
