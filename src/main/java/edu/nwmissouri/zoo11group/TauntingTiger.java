@@ -70,6 +70,7 @@ public class TauntingTiger extends Animal {
            tommy.speak();
            tommy.move();
            tommy.type();
+           tommy.exceptions();
            }
        }
     
