@@ -7,7 +7,7 @@ package edu.nwmissouri.zoo11group;
 
 /**
  *This is PolarBear class 
- * @author Maddelavedu Pravallika
+ * @author Maddelavedu Pravallika(s545254)
  */
 public class PolarBear extends Animal {
     
@@ -24,6 +24,33 @@ public class PolarBear extends Animal {
     public void speak() {
         System.out.printf("I'm %s. I'm an polarBear! \n",this.name);
     }
+    
+    public int oopsException() {
+  int d = 10;
+  int n = 0;
+  try 
+  {
+   int multiplication = n * d;
+   System.out.println("This will no the executed");
+  } 
+  catch (ArithmeticException e)
+  {
+   System.out.println("Exception = " + e);
+  }
+  return multiplication;
+}
+
+    /**
+     *
+     * @param main exception Handling class
+     */
+    public static void main(String args[]){
+   PolarBear B = new PolarBear("B");
+   B.speak();
+   B.move();
+   B.oopsException();
+   }
+}
     
     
 }
