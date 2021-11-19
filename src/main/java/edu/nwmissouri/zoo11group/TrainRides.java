@@ -4,15 +4,21 @@
  */
 package edu.nwmissouri.zoo11group;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 /**
  * This is TrainRides class which defines the rides available in rides
- * @author S545407
+ *
+ * @author TakkellapatiVenkataPrabhakar(S545407)
  */
 public class TrainRides extends ZooRides {
 
     private String reservedNo = "";
     private double speed = 0.0;
     private double time = 0.0;
+    private String content;
 
     /**
      *
@@ -135,6 +141,56 @@ public class TrainRides extends ZooRides {
     public static void run() {
         System.out.println("======= THIS IS TRAIN RIDES ==========");
         System.out.println("I Am Here To Present About Available Train Rides ");
+    }
+
+    public void riding(String c) {
+        this.content = c;
+        if (content.isEmpty()) {
+            throw new NullPointerException("content is empty");
+        } else {
+            System.out.println("content==" + content);
+        }
+    }
+
+    public static void main(String[] args) {
+         //--------------------Type casting------------------------------------------
+         // create string type variable
+    String data = "10";
+    System.out.println("The string value is: " + data);
+
+    // convert string variable to int
+    int numb = Integer.parseInt(data);
+    System.out.println("The integer value is: " + numb);
+    //converting double to int type
+    double myDouble = 9.78d;
+    int myInt = (int) myDouble; // Manual casting: double to int
+
+    System.out.println(myDouble);   // Outputs 9.78
+    System.out.println(myInt);      // Outputs 9
+    
+//    ----------------Exception Handling----------------------------------------
+        int num = 0;
+        //FileNotFoundException
+        try {
+            Scanner in = new Scanner(new File("c:/0/data.txt"));
+            num = in.nextInt();
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found\n" + e);
+        }
+        System.out.println(num);
+        //Arithmetic Exception
+        try {
+            //define two numbers 
+            int num1 = 100, num2 = 0;
+            int result = num1 / num2; // divide by zero 
+            //print the result
+            System.out.println("Result = " + result);
+        } catch (ArithmeticException e) {
+            System.out.println("ArithmeticException:Division by Zero");
+        }
+        var ride=new TrainRides();
+        //ride.riding("");(It throws NullPointer Exception)
+
     }
 
 }

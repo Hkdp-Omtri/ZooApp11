@@ -8,7 +8,11 @@ package edu.nwmissouri.zoo11group;
 /**
  * This is PolarBear class
  *
+<<<<<<< HEAD
  * @author Maddelavedu Pravallika
+=======
+ * @author Maddelavedu Pravallika(s545254)
+>>>>>>> e0415aa47e191b3051560bfdad43bdd1fd1cc771
  */
 public class PolarBear extends Animal {
 
@@ -43,4 +47,8 @@ public class PolarBear extends Animal {
         p.move();
         p.Exceptionclass();
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e0415aa47e191b3051560bfdad43bdd1fd1cc771
