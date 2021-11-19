@@ -42,7 +42,7 @@ public class Elephant extends Animal {
         System.out.println(" I could not able to swim in water but would like to walk! ");
     }
 
-public int JavaException() {
+public void JavaException() {
   int d = 0;
   int n = 20;
   try 
@@ -54,7 +54,6 @@ public int JavaException() {
   {
    System.out.println("Exception = " + e);
   }
-  return fraction;
 }
 
     /**
