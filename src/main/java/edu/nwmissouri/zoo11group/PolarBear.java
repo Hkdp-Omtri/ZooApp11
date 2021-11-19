@@ -6,51 +6,41 @@
 package edu.nwmissouri.zoo11group;
 
 /**
- *This is PolarBear class 
+ * This is PolarBear class
+ *
  * @author Maddelavedu Pravallika(s545254)
  */
 public class PolarBear extends Animal {
-    
-     public PolarBear(String name) {
-       super(name); 
+
+    public PolarBear(String name) {
+        super(name);
     }
-    
+
     @Override
     public void move() {
         System.out.println(" Its head from side to side when it wants to play with another");
     }
-    
+
     @Override
     public void speak() {
-        System.out.printf("I'm %s. I'm an polarBear! \n",this.name);
+        System.out.printf("I'm %s. I'm an polarBear! \n", this.name);
+    }
+
+    public int Exceptionclass() {
+        int a = 10;
+        for (int i = 3; i >= 0; i--)
+		   try {
+            System.out.println(a / i);
+        } catch (ArithmeticException e) {
+            System.out.println(e);
+        }
+        return a;
     }
     
-    public int oopsException() {
-  int d = 10;
-  int n = 0;
-  try 
-  {
-   int multiplication = n * d;
-   System.out.println("This will no the executed");
-  } 
-  catch (ArithmeticException e)
-  {
-   System.out.println("Exception = " + e);
-  }
-  return multiplication;
-}
-
-    /**
-     *
-     * @param main exception Handling class
-     */
-    public static void main(String args[]){
-   PolarBear B = new PolarBear("B");
-   B.speak();
-   B.move();
-   B.oopsException();
-   }
-}
-    
-    
+    public static void main(String[] args) {
+        PolarBear p = new PolarBear("p");
+        p.speak();
+        p.move();
+        p.Exceptionclass();
+    }
 }
