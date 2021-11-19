@@ -1,3 +1,4 @@
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -26,6 +27,7 @@ public class Elephant extends Animal {
      *
      */
 
+    @Override
     public void speak() {
         System.out.println(" I'm an Elephant! ");
     }
@@ -40,4 +42,29 @@ public class Elephant extends Animal {
         System.out.println(" I could not able to swim in water but would like to walk! ");
     }
 
+public int JavaException() {
+  int d = 0;
+  int n = 20;
+  try 
+  {
+   int fraction = n / d;
+   System.out.println("This will no tbe executed");
+  } 
+  catch (ArithmeticException e)
+  {
+   System.out.println("Exception = " + e);
+  }
+  return fraction;
+}
+
+    /**
+     *
+     * @param args
+     */
+    public static void main(String args[]){
+   Elephant E = new Elephant("E");
+   E.speak();
+   E.move();
+   E.JavaException();
+   }
 }
