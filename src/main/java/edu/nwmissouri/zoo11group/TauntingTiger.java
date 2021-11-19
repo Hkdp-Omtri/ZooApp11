@@ -43,9 +43,25 @@ public class TauntingTiger extends Animal {
      */
      public void type() {
         System.out.println("I am a wild animal");
-        
-        
     }
+    
+    public int exceptions() {
+          
+        int a = 0;
+        b = 2;
+        int div;
+        try
+        {
+          div = b/a;
+        }
+        // doesn't matches with ArithmeticException
+        catch(NumberFormatException ex)
+        {
+           System.out.println("NumberFormatException is occured"); 
+        }
+        return div;
+    }
+    
        public static void main(String[] args){
            TauntingTiger tommy = new TauntingTiger("tommy");
            for(int i =0;i<4;i++){
