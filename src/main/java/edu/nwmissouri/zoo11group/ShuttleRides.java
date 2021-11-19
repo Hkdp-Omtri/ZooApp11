@@ -6,7 +6,7 @@ package edu.nwmissouri.zoo11group;
 
 /**
  *This is ShuttleRides class 
- * @author SarathArrepu
+ * @author SarathArrepu S545027
  */
 public class ShuttleRides {
     private String customerName;
@@ -75,6 +75,17 @@ public class ShuttleRides {
     public void shuttletype(){
         System.out.println("This a minivan");
     }
+    
+    public void ExcepTest {
+      try {
+         int arr[] = new int[2];
+         System.out.println("Access element three :" + arr[3]);
+      } catch (ArrayIndexOutOfBoundsException e) {
+         System.out.println("Exception thrown  :" + e);
+      }
+      System.out.println("Out of the block");
+      }
+
     /*
     This is run method
     */
