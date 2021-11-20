@@ -108,19 +108,19 @@ public class ProngHorn extends Animal {
     
       public int exceptions() {
           
-        int a = 0;
-        b = 2;
-        int div;
+        int a1= 0;
+        b2 = 12;
+        int d1;
         try
         {
-          div = b/a;
+          d1 = b1/a1;
         }
         // doesn't matches with ArithmeticException
         catch(NumberFormatException ex)
         {
-           System.out.println("NumberFormatException is occured"); 
+           System.out.println("Arithmetic exception"); 
         }
-        return div;
+        return d1;
     }
     
    /**
