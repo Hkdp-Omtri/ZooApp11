@@ -116,7 +116,7 @@ public class ProngHorn extends Animal {
           d1 = b1/a1;
         }
         // doesn't matches with ArithmeticException
-        catch(NumberFormatException ex)
+        catch(ArithmeticException ex)
         {
            System.out.println("Arithmetic exception"); 
         }
