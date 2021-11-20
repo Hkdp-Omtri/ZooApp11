@@ -8,7 +8,7 @@ package edu.nwmissouri.zoo11group;
 /**
  * This is ProngHorn animal class.(derived subclass of the superclass Animal)
  *
- * @author Alekhya Gandra
+ * @author S545229
  */
 public class ProngHorn extends Animal {
 
