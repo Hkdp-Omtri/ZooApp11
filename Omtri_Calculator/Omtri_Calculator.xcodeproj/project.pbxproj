@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		783E713327BEED1500710511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783E713227BEED1500710511 /* AppDelegate.swift */; };
+		783E713527BEED1500710511 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783E713427BEED1500710511 /* SceneDelegate.swift */; };
+		783E713727BEED1500710511 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783E713627BEED1500710511 /* ViewController.swift */; };
+		783E713A27BEED1500710511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783E713827BEED1500710511 /* Main.storyboard */; };
+		783E713C27BEED1600710511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 783E713B27BEED1600710511 /* Assets.xcassets */; };
+		783E713F27BEED1600710511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 783E713D27BEED1600710511 /* LaunchScreen.storyboard */; };
+		783E714A27BEED1600710511 /* Omtri_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783E714927BEED1600710511 /* Omtri_CalculatorTests.swift */; };
+		783E715427BEED1600710511 /* Omtri_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783E715327BEED1600710511 /* Omtri_CalculatorUITests.swift */; };
+		783E715627BEED1600710511 /* Omtri_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783E715527BEED1600710511 /* Omtri_CalculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		783E714627BEED1600710511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 783E712727BEED1500710511 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 783E712E27BEED1500710511;
+			remoteInfo = Omtri_Calculator;
+		};
+		783E715027BEED1600710511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 783E712727BEED1500710511 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 783E712E27BEED1500710511;
+			remoteInfo = Omtri_Calculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		783E712F27BEED1500710511 /* Omtri_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omtri_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		783E713227BEED1500710511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		783E713427BEED1500710511 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		783E713627BEED1500710511 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		783E713927BEED1500710511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		783E713B27BEED1600710511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		783E713E27BEED1600710511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		783E714027BEED1600710511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		783E714527BEED1600710511 /* Omtri_CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Omtri_CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		783E714927BEED1600710511 /* Omtri_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Omtri_CalculatorTests.swift; sourceTree = "<group>"; };
+		783E714F27BEED1600710511 /* Omtri_CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Omtri_CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		783E715327BEED1600710511 /* Omtri_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Omtri_CalculatorUITests.swift; sourceTree = "<group>"; };
+		783E715527BEED1600710511 /* Omtri_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Omtri_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		783E712C27BEED1500710511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783E714227BEED1600710511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783E714C27BEED1600710511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		783E712627BEED1500710511 = {
+			isa = PBXGroup;
+			children = (
+				783E713127BEED1500710511 /* Omtri_Calculator */,
+				783E714827BEED1600710511 /* Omtri_CalculatorTests */,
+				783E715227BEED1600710511 /* Omtri_CalculatorUITests */,
+				783E713027BEED1500710511 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		783E713027BEED1500710511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				783E712F27BEED1500710511 /* Omtri_Calculator.app */,
+				783E714527BEED1600710511 /* Omtri_CalculatorTests.xctest */,
+				783E714F27BEED1600710511 /* Omtri_CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		783E713127BEED1500710511 /* Omtri_Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				783E713227BEED1500710511 /* AppDelegate.swift */,
+				783E713427BEED1500710511 /* SceneDelegate.swift */,
+				783E713627BEED1500710511 /* ViewController.swift */,
+				783E713827BEED1500710511 /* Main.storyboard */,
+				783E713B27BEED1600710511 /* Assets.xcassets */,
+				783E713D27BEED1600710511 /* LaunchScreen.storyboard */,
+				783E714027BEED1600710511 /* Info.plist */,
+			);
+			path = Omtri_Calculator;
+			sourceTree = "<group>";
+		};
+		783E714827BEED1600710511 /* Omtri_CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				783E714927BEED1600710511 /* Omtri_CalculatorTests.swift */,
+			);
+			path = Omtri_CalculatorTests;
+			sourceTree = "<group>";
+		};
+		783E715227BEED1600710511 /* Omtri_CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				783E715327BEED1600710511 /* Omtri_CalculatorUITests.swift */,
+				783E715527BEED1600710511 /* Omtri_CalculatorUITestsLaunchTests.swift */,
+			);
+			path = Omtri_CalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		783E712E27BEED1500710511 /* Omtri_Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783E715927BEED1600710511 /* Build configuration list for PBXNativeTarget "Omtri_Calculator" */;
+			buildPhases = (
+				783E712B27BEED1500710511 /* Sources */,
+				783E712C27BEED1500710511 /* Frameworks */,
+				783E712D27BEED1500710511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Omtri_Calculator;
+			productName = Omtri_Calculator;
+			productReference = 783E712F27BEED1500710511 /* Omtri_Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		783E714427BEED1600710511 /* Omtri_CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783E715C27BEED1600710511 /* Build configuration list for PBXNativeTarget "Omtri_CalculatorTests" */;
+			buildPhases = (
+				783E714127BEED1600710511 /* Sources */,
+				783E714227BEED1600710511 /* Frameworks */,
+				783E714327BEED1600710511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				783E714727BEED1600710511 /* PBXTargetDependency */,
+			);
+			name = Omtri_CalculatorTests;
+			productName = Omtri_CalculatorTests;
+			productReference = 783E714527BEED1600710511 /* Omtri_CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		783E714E27BEED1600710511 /* Omtri_CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783E715F27BEED1600710511 /* Build configuration list for PBXNativeTarget "Omtri_CalculatorUITests" */;
+			buildPhases = (
+				783E714B27BEED1600710511 /* Sources */,
+				783E714C27BEED1600710511 /* Frameworks */,
+				783E714D27BEED1600710511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				783E715127BEED1600710511 /* PBXTargetDependency */,
+			);
+			name = Omtri_CalculatorUITests;
+			productName = Omtri_CalculatorUITests;
+			productReference = 783E714F27BEED1600710511 /* Omtri_CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		783E712727BEED1500710511 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					783E712E27BEED1500710511 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					783E714427BEED1600710511 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 783E712E27BEED1500710511;
+					};
+					783E714E27BEED1600710511 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 783E712E27BEED1500710511;
+					};
+				};
+			};
+			buildConfigurationList = 783E712A27BEED1500710511 /* Build configuration list for PBXProject "Omtri_Calculator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 783E712627BEED1500710511;
+			productRefGroup = 783E713027BEED1500710511 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				783E712E27BEED1500710511 /* Omtri_Calculator */,
+				783E714427BEED1600710511 /* Omtri_CalculatorTests */,
+				783E714E27BEED1600710511 /* Omtri_CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		783E712D27BEED1500710511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783E713F27BEED1600710511 /* LaunchScreen.storyboard in Resources */,
+				783E713C27BEED1600710511 /* Assets.xcassets in Resources */,
+				783E713A27BEED1500710511 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783E714327BEED1600710511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783E714D27BEED1600710511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		783E712B27BEED1500710511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783E713727BEED1500710511 /* ViewController.swift in Sources */,
+				783E713327BEED1500710511 /* AppDelegate.swift in Sources */,
+				783E713527BEED1500710511 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783E714127BEED1600710511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783E714A27BEED1600710511 /* Omtri_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783E714B27BEED1600710511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783E715627BEED1600710511 /* Omtri_CalculatorUITestsLaunchTests.swift in Sources */,
+				783E715427BEED1600710511 /* Omtri_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		783E714727BEED1600710511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 783E712E27BEED1500710511 /* Omtri_Calculator */;
+			targetProxy = 783E714627BEED1600710511 /* PBXContainerItemProxy */;
+		};
+		783E715127BEED1600710511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 783E712E27BEED1500710511 /* Omtri_Calculator */;
+			targetProxy = 783E715027BEED1600710511 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		783E713827BEED1500710511 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				783E713927BEED1500710511 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		783E713D27BEED1600710511 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				783E713E27BEED1600710511 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		783E715727BEED1600710511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		783E715827BEED1600710511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		783E715A27BEED1600710511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Omtri_Calculator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Omtri_Calculator;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Omtri-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		783E715B27BEED1600710511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Omtri_Calculator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Omtri_Calculator;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Omtri-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		783E715D27BEED1600710511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Omtri-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omtri_Calculator.app/Omtri_Calculator";
+			};
+			name = Debug;
+		};
+		783E715E27BEED1600710511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Omtri-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omtri_Calculator.app/Omtri_Calculator";
+			};
+			name = Release;
+		};
+		783E716027BEED1600710511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Omtri-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Omtri_Calculator;
+			};
+			name = Debug;
+		};
+		783E716127BEED1600710511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Omtri-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Omtri_Calculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		783E712A27BEED1500710511 /* Build configuration list for PBXProject "Omtri_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783E715727BEED1600710511 /* Debug */,
+				783E715827BEED1600710511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783E715927BEED1600710511 /* Build configuration list for PBXNativeTarget "Omtri_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783E715A27BEED1600710511 /* Debug */,
+				783E715B27BEED1600710511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783E715C27BEED1600710511 /* Build configuration list for PBXNativeTarget "Omtri_CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783E715D27BEED1600710511 /* Debug */,
+				783E715E27BEED1600710511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783E715F27BEED1600710511 /* Build configuration list for PBXNativeTarget "Omtri_CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783E716027BEED1600710511 /* Debug */,
+				783E716127BEED1600710511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 783E712727BEED1500710511 /* Project object */;
+}
