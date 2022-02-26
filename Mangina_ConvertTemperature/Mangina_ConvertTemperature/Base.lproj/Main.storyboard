@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Eu6-Mq-9kM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Temperature Converter-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Mangina_ConvertTemperature" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="53" translatesAutoresizingMaskIntoConstraints="NO" id="xHL-A6-zCr">
+                                <rect key="frame" x="97.5" y="125" width="180" height="121"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Temperature in Celsius" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="437-KL-9ec">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="0kI-0H-nzr"/>
+                                            <constraint firstAttribute="height" constant="34" id="X7e-XB-6Sm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="tempTextFieldChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="hiV-qp-ZoW"/>
+                                        </connections>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7j-6d-Zeq">
+                                        <rect key="frame" x="52.5" y="87" width="75.5" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="E4e-Q1-ReX"/>
+                                            <constraint firstAttribute="height" constant="34" id="rEo-Eq-4jS"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Convert">
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="convertButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AAE-5q-vqM"/>
+                                            <segue destination="kgU-In-ZIN" kind="show" identifier="convertTemp" id="2NL-hk-tWe"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xHL-A6-zCr" secondAttribute="bottom" constant="421" id="5iI-Ap-9dc"/>
+                            <constraint firstItem="xHL-A6-zCr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o7u-dE-x5g"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Temperature Converter" id="Pmb-TY-kMF"/>
+                    <connections>
+                        <outlet property="convertButton" destination="h7j-6d-Zeq" id="wPr-5D-4lH"/>
+                        <outlet property="tempTextField" destination="437-KL-9ec" id="zbe-7k-b6J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="841" y="74"/>
+        </scene>
+        <!--Result View Controller-->
+        <scene sceneID="dsq-el-Onm">
+            <objects>
+                <viewController id="kgU-In-ZIN" customClass="ResultViewController" customModule="Mangina_ConvertTemperature" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="frl-tS-VyY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="i31-WD-nDz">
+                                <rect key="frame" x="63.5" y="135" width="248" height="397"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperature in Fahrenheit:          " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rQu-qh-Ol9">
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="21"/>
+                                        <color key="backgroundColor" red="1" green="0.99699813349999999" blue="0.98125919939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="248" id="DFZ-aX-dgR"/>
+                                            <constraint firstAttribute="height" constant="21" id="QUQ-1D-1WY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" name="AccentColor"/>
+                                        <color key="highlightedColor" systemColor="systemYellowColor"/>
+                                        <color key="shadowColor" systemColor="systemBlueColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperature in Kelvin: " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cp-qX-edN">
+                                        <rect key="frame" x="0.0" y="61" width="248" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="248" id="824-nY-m9B"/>
+                                            <constraint firstAttribute="height" constant="21" id="Uzn-ik-b02"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" systemColor="systemRedColor"/>
+                                        <color key="highlightedColor" systemColor="systemOrangeColor"/>
+                                        <color key="shadowColor" systemColor="systemRedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGb-OL-qBt">
+                                        <rect key="frame" x="0.0" y="122" width="248" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="9MT-jy-eDA"/>
+                                            <constraint firstAttribute="width" constant="248" id="qvn-lF-a0H"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D2A-hq-82e">
+                                        <rect key="frame" x="24" y="197" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="JHv-Fr-rO2"/>
+                                            <constraint firstAttribute="height" constant="200" id="TsZ-kT-p2i"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ahc-qX-Yv2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="i31-WD-nDz" firstAttribute="centerX" secondItem="frl-tS-VyY" secondAttribute="centerX" id="MKE-3I-7cm"/>
+                            <constraint firstItem="i31-WD-nDz" firstAttribute="centerY" secondItem="frl-tS-VyY" secondAttribute="centerY" id="P7d-mB-XDf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1RQ-6O-8rj"/>
+                    <connections>
+                        <outlet property="fahrenheitLabel" destination="rQu-qh-Ol9" id="dOq-eJ-W1w"/>
+                        <outlet property="imageView" destination="D2A-hq-82e" id="j51-cy-c7q"/>
+                        <outlet property="kelvinLabel" destination="5cp-qX-edN" id="qIJ-Cx-YYT"/>
+                        <outlet property="textLabel" destination="bGb-OL-qBt" id="GSK-ge-qjq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2sL-ZK-aZ2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1767" y="73"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5sG-X0-96O">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Eu6-Mq-9kM" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2PA-Pg-flJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="R75-am-VZe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kT6-8t-gf1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="81.696428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
