@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FAA506B2804B41D0061ACA1 /* GrocerySections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA506A2804B41D0061ACA1 /* GrocerySections.swift */; };
+		3FC36DC82804A3360021E3CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC36DC72804A3360021E3CE /* AppDelegate.swift */; };
+		3FC36DCA2804A3360021E3CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC36DC92804A3360021E3CE /* SceneDelegate.swift */; };
+		3FC36DCC2804A3360021E3CE /* GrocerySectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC36DCB2804A3360021E3CE /* GrocerySectionsViewController.swift */; };
+		3FC36DCF2804A3360021E3CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC36DCD2804A3360021E3CE /* Main.storyboard */; };
+		3FC36DD12804A3370021E3CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC36DD02804A3370021E3CE /* Assets.xcassets */; };
+		3FC36DD42804A3370021E3CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC36DD22804A3370021E3CE /* LaunchScreen.storyboard */; };
+		3FC36DDF2804A3370021E3CE /* Merugu_GroceryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC36DDE2804A3370021E3CE /* Merugu_GroceryAppTests.swift */; };
+		3FC36DE92804A3370021E3CE /* Merugu_GroceryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC36DE82804A3370021E3CE /* Merugu_GroceryAppUITests.swift */; };
+		3FC36DEB2804A3370021E3CE /* Merugu_GroceryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC36DEA2804A3370021E3CE /* Merugu_GroceryAppUITestsLaunchTests.swift */; };
+		3FC36DF82804A7D60021E3CE /* GroceryItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC36DF72804A7D60021E3CE /* GroceryItemsViewController.swift */; };
+		3FC36DFA2804AA120021E3CE /* ItemInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC36DF92804AA120021E3CE /* ItemInfoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FC36DDB2804A3370021E3CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC36DBC2804A3360021E3CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC36DC32804A3360021E3CE;
+			remoteInfo = Merugu_GroceryApp;
+		};
+		3FC36DE52804A3370021E3CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC36DBC2804A3360021E3CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC36DC32804A3360021E3CE;
+			remoteInfo = Merugu_GroceryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FAA506A2804B41D0061ACA1 /* GrocerySections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocerySections.swift; sourceTree = "<group>"; };
+		3FC36DC42804A3360021E3CE /* Merugu_GroceryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Merugu_GroceryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC36DC72804A3360021E3CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FC36DC92804A3360021E3CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FC36DCB2804A3360021E3CE /* GrocerySectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocerySectionsViewController.swift; sourceTree = "<group>"; };
+		3FC36DCE2804A3360021E3CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FC36DD02804A3370021E3CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FC36DD32804A3370021E3CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FC36DD52804A3370021E3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC36DDA2804A3370021E3CE /* Merugu_GroceryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Merugu_GroceryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC36DDE2804A3370021E3CE /* Merugu_GroceryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merugu_GroceryAppTests.swift; sourceTree = "<group>"; };
+		3FC36DE42804A3370021E3CE /* Merugu_GroceryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Merugu_GroceryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC36DE82804A3370021E3CE /* Merugu_GroceryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merugu_GroceryAppUITests.swift; sourceTree = "<group>"; };
+		3FC36DEA2804A3370021E3CE /* Merugu_GroceryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merugu_GroceryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FC36DF72804A7D60021E3CE /* GroceryItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemsViewController.swift; sourceTree = "<group>"; };
+		3FC36DF92804AA120021E3CE /* ItemInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FC36DC12804A3360021E3CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC36DD72804A3370021E3CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC36DE12804A3370021E3CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FC36DBB2804A3360021E3CE = {
+			isa = PBXGroup;
+			children = (
+				3FC36DC62804A3360021E3CE /* Merugu_GroceryApp */,
+				3FC36DDD2804A3370021E3CE /* Merugu_GroceryAppTests */,
+				3FC36DE72804A3370021E3CE /* Merugu_GroceryAppUITests */,
+				3FC36DC52804A3360021E3CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FC36DC52804A3360021E3CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC36DC42804A3360021E3CE /* Merugu_GroceryApp.app */,
+				3FC36DDA2804A3370021E3CE /* Merugu_GroceryAppTests.xctest */,
+				3FC36DE42804A3370021E3CE /* Merugu_GroceryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FC36DC62804A3360021E3CE /* Merugu_GroceryApp */ = {
+			isa = PBXGroup;
+			children = (
+				3FC36DC72804A3360021E3CE /* AppDelegate.swift */,
+				3FC36DC92804A3360021E3CE /* SceneDelegate.swift */,
+				3FC36DCB2804A3360021E3CE /* GrocerySectionsViewController.swift */,
+				3FC36DCD2804A3360021E3CE /* Main.storyboard */,
+				3FC36DD02804A3370021E3CE /* Assets.xcassets */,
+				3FC36DD22804A3370021E3CE /* LaunchScreen.storyboard */,
+				3FC36DD52804A3370021E3CE /* Info.plist */,
+				3FC36DF72804A7D60021E3CE /* GroceryItemsViewController.swift */,
+				3FC36DF92804AA120021E3CE /* ItemInfoViewController.swift */,
+				3FAA506A2804B41D0061ACA1 /* GrocerySections.swift */,
+			);
+			path = Merugu_GroceryApp;
+			sourceTree = "<group>";
+		};
+		3FC36DDD2804A3370021E3CE /* Merugu_GroceryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC36DDE2804A3370021E3CE /* Merugu_GroceryAppTests.swift */,
+			);
+			path = Merugu_GroceryAppTests;
+			sourceTree = "<group>";
+		};
+		3FC36DE72804A3370021E3CE /* Merugu_GroceryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC36DE82804A3370021E3CE /* Merugu_GroceryAppUITests.swift */,
+				3FC36DEA2804A3370021E3CE /* Merugu_GroceryAppUITestsLaunchTests.swift */,
+			);
+			path = Merugu_GroceryAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FC36DC32804A3360021E3CE /* Merugu_GroceryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC36DEE2804A3370021E3CE /* Build configuration list for PBXNativeTarget "Merugu_GroceryApp" */;
+			buildPhases = (
+				3FC36DC02804A3360021E3CE /* Sources */,
+				3FC36DC12804A3360021E3CE /* Frameworks */,
+				3FC36DC22804A3360021E3CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Merugu_GroceryApp;
+			productName = Merugu_GroceryApp;
+			productReference = 3FC36DC42804A3360021E3CE /* Merugu_GroceryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FC36DD92804A3370021E3CE /* Merugu_GroceryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC36DF12804A3370021E3CE /* Build configuration list for PBXNativeTarget "Merugu_GroceryAppTests" */;
+			buildPhases = (
+				3FC36DD62804A3370021E3CE /* Sources */,
+				3FC36DD72804A3370021E3CE /* Frameworks */,
+				3FC36DD82804A3370021E3CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC36DDC2804A3370021E3CE /* PBXTargetDependency */,
+			);
+			name = Merugu_GroceryAppTests;
+			productName = Merugu_GroceryAppTests;
+			productReference = 3FC36DDA2804A3370021E3CE /* Merugu_GroceryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FC36DE32804A3370021E3CE /* Merugu_GroceryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC36DF42804A3370021E3CE /* Build configuration list for PBXNativeTarget "Merugu_GroceryAppUITests" */;
+			buildPhases = (
+				3FC36DE02804A3370021E3CE /* Sources */,
+				3FC36DE12804A3370021E3CE /* Frameworks */,
+				3FC36DE22804A3370021E3CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC36DE62804A3370021E3CE /* PBXTargetDependency */,
+			);
+			name = Merugu_GroceryAppUITests;
+			productName = Merugu_GroceryAppUITests;
+			productReference = 3FC36DE42804A3370021E3CE /* Merugu_GroceryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FC36DBC2804A3360021E3CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3FC36DC32804A3360021E3CE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3FC36DD92804A3370021E3CE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3FC36DC32804A3360021E3CE;
+					};
+					3FC36DE32804A3370021E3CE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3FC36DC32804A3360021E3CE;
+					};
+				};
+			};
+			buildConfigurationList = 3FC36DBF2804A3360021E3CE /* Build configuration list for PBXProject "Merugu_GroceryApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FC36DBB2804A3360021E3CE;
+			productRefGroup = 3FC36DC52804A3360021E3CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FC36DC32804A3360021E3CE /* Merugu_GroceryApp */,
+				3FC36DD92804A3370021E3CE /* Merugu_GroceryAppTests */,
+				3FC36DE32804A3370021E3CE /* Merugu_GroceryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FC36DC22804A3360021E3CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC36DD42804A3370021E3CE /* LaunchScreen.storyboard in Resources */,
+				3FC36DD12804A3370021E3CE /* Assets.xcassets in Resources */,
+				3FC36DCF2804A3360021E3CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC36DD82804A3370021E3CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC36DE22804A3370021E3CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FC36DC02804A3360021E3CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC36DCC2804A3360021E3CE /* GrocerySectionsViewController.swift in Sources */,
+				3FAA506B2804B41D0061ACA1 /* GrocerySections.swift in Sources */,
+				3FC36DC82804A3360021E3CE /* AppDelegate.swift in Sources */,
+				3FC36DF82804A7D60021E3CE /* GroceryItemsViewController.swift in Sources */,
+				3FC36DFA2804AA120021E3CE /* ItemInfoViewController.swift in Sources */,
+				3FC36DCA2804A3360021E3CE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC36DD62804A3370021E3CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC36DDF2804A3370021E3CE /* Merugu_GroceryAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC36DE02804A3370021E3CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC36DE92804A3370021E3CE /* Merugu_GroceryAppUITests.swift in Sources */,
+				3FC36DEB2804A3370021E3CE /* Merugu_GroceryAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FC36DDC2804A3370021E3CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC36DC32804A3360021E3CE /* Merugu_GroceryApp */;
+			targetProxy = 3FC36DDB2804A3370021E3CE /* PBXContainerItemProxy */;
+		};
+		3FC36DE62804A3370021E3CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC36DC32804A3360021E3CE /* Merugu_GroceryApp */;
+			targetProxy = 3FC36DE52804A3370021E3CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FC36DCD2804A3360021E3CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC36DCE2804A3360021E3CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FC36DD22804A3370021E3CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC36DD32804A3370021E3CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FC36DEC2804A3370021E3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FC36DED2804A3370021E3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FC36DEF2804A3370021E3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Merugu_GroceryApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Merugu_GroceryApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Merugu-GroceryApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FC36DF02804A3370021E3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Merugu_GroceryApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Merugu_GroceryApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Merugu-GroceryApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FC36DF22804A3370021E3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Merugu-GroceryAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Merugu_GroceryApp.app/Merugu_GroceryApp";
+			};
+			name = Debug;
+		};
+		3FC36DF32804A3370021E3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Merugu-GroceryAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Merugu_GroceryApp.app/Merugu_GroceryApp";
+			};
+			name = Release;
+		};
+		3FC36DF52804A3370021E3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Merugu-GroceryAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Merugu_GroceryApp;
+			};
+			name = Debug;
+		};
+		3FC36DF62804A3370021E3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Merugu-GroceryAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Merugu_GroceryApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FC36DBF2804A3360021E3CE /* Build configuration list for PBXProject "Merugu_GroceryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC36DEC2804A3370021E3CE /* Debug */,
+				3FC36DED2804A3370021E3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC36DEE2804A3370021E3CE /* Build configuration list for PBXNativeTarget "Merugu_GroceryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC36DEF2804A3370021E3CE /* Debug */,
+				3FC36DF02804A3370021E3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC36DF12804A3370021E3CE /* Build configuration list for PBXNativeTarget "Merugu_GroceryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC36DF22804A3370021E3CE /* Debug */,
+				3FC36DF32804A3370021E3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC36DF42804A3370021E3CE /* Build configuration list for PBXNativeTarget "Merugu_GroceryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC36DF52804A3370021E3CE /* Debug */,
+				3FC36DF62804A3370021E3CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FC36DBC2804A3360021E3CE /* Project object */;
+}
