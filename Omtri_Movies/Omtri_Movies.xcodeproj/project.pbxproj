@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FA576762813585300A256A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA576752813585300A256A8 /* AppDelegate.swift */; };
+		3FA576782813585300A256A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA576772813585300A256A8 /* SceneDelegate.swift */; };
+		3FA5767A2813585300A256A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA576792813585300A256A8 /* ViewController.swift */; };
+		3FA5767D2813585300A256A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA5767B2813585300A256A8 /* Main.storyboard */; };
+		3FA5767F2813585300A256A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA5767E2813585300A256A8 /* Assets.xcassets */; };
+		3FA576822813585300A256A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA576802813585300A256A8 /* LaunchScreen.storyboard */; };
+		3FA5768D2813585300A256A8 /* Omtri_MoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA5768C2813585300A256A8 /* Omtri_MoviesTests.swift */; };
+		3FA576972813585300A256A8 /* Omtri_MoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA576962813585300A256A8 /* Omtri_MoviesUITests.swift */; };
+		3FA576992813585300A256A8 /* Omtri_MoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA576982813585300A256A8 /* Omtri_MoviesUITestsLaunchTests.swift */; };
+		3FA576A628135DF800A256A8 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA576A528135DF800A256A8 /* Movie.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FA576892813585300A256A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA5766A2813585300A256A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA576712813585300A256A8;
+			remoteInfo = Omtri_Movies;
+		};
+		3FA576932813585300A256A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA5766A2813585300A256A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA576712813585300A256A8;
+			remoteInfo = Omtri_Movies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FA576722813585300A256A8 /* Omtri_Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omtri_Movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA576752813585300A256A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FA576772813585300A256A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FA576792813585300A256A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FA5767C2813585300A256A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FA5767E2813585300A256A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FA576812813585300A256A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FA576832813585300A256A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA576882813585300A256A8 /* Omtri_MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Omtri_MoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA5768C2813585300A256A8 /* Omtri_MoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Omtri_MoviesTests.swift; sourceTree = "<group>"; };
+		3FA576922813585300A256A8 /* Omtri_MoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Omtri_MoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA576962813585300A256A8 /* Omtri_MoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Omtri_MoviesUITests.swift; sourceTree = "<group>"; };
+		3FA576982813585300A256A8 /* Omtri_MoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Omtri_MoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FA576A528135DF800A256A8 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA5766F2813585300A256A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA576852813585300A256A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA5768F2813585300A256A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA576692813585300A256A8 = {
+			isa = PBXGroup;
+			children = (
+				3FA576742813585300A256A8 /* Omtri_Movies */,
+				3FA5768B2813585300A256A8 /* Omtri_MoviesTests */,
+				3FA576952813585300A256A8 /* Omtri_MoviesUITests */,
+				3FA576732813585300A256A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FA576732813585300A256A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA576722813585300A256A8 /* Omtri_Movies.app */,
+				3FA576882813585300A256A8 /* Omtri_MoviesTests.xctest */,
+				3FA576922813585300A256A8 /* Omtri_MoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA576742813585300A256A8 /* Omtri_Movies */ = {
+			isa = PBXGroup;
+			children = (
+				3FA576752813585300A256A8 /* AppDelegate.swift */,
+				3FA576772813585300A256A8 /* SceneDelegate.swift */,
+				3FA576792813585300A256A8 /* ViewController.swift */,
+				3FA5767B2813585300A256A8 /* Main.storyboard */,
+				3FA5767E2813585300A256A8 /* Assets.xcassets */,
+				3FA576802813585300A256A8 /* LaunchScreen.storyboard */,
+				3FA576832813585300A256A8 /* Info.plist */,
+				3FA576A528135DF800A256A8 /* Movie.swift */,
+			);
+			path = Omtri_Movies;
+			sourceTree = "<group>";
+		};
+		3FA5768B2813585300A256A8 /* Omtri_MoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA5768C2813585300A256A8 /* Omtri_MoviesTests.swift */,
+			);
+			path = Omtri_MoviesTests;
+			sourceTree = "<group>";
+		};
+		3FA576952813585300A256A8 /* Omtri_MoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA576962813585300A256A8 /* Omtri_MoviesUITests.swift */,
+				3FA576982813585300A256A8 /* Omtri_MoviesUITestsLaunchTests.swift */,
+			);
+			path = Omtri_MoviesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA576712813585300A256A8 /* Omtri_Movies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA5769C2813585300A256A8 /* Build configuration list for PBXNativeTarget "Omtri_Movies" */;
+			buildPhases = (
+				3FA5766E2813585300A256A8 /* Sources */,
+				3FA5766F2813585300A256A8 /* Frameworks */,
+				3FA576702813585300A256A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Omtri_Movies;
+			productName = Omtri_Movies;
+			productReference = 3FA576722813585300A256A8 /* Omtri_Movies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FA576872813585300A256A8 /* Omtri_MoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA5769F2813585300A256A8 /* Build configuration list for PBXNativeTarget "Omtri_MoviesTests" */;
+			buildPhases = (
+				3FA576842813585300A256A8 /* Sources */,
+				3FA576852813585300A256A8 /* Frameworks */,
+				3FA576862813585300A256A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA5768A2813585300A256A8 /* PBXTargetDependency */,
+			);
+			name = Omtri_MoviesTests;
+			productName = Omtri_MoviesTests;
+			productReference = 3FA576882813585300A256A8 /* Omtri_MoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FA576912813585300A256A8 /* Omtri_MoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA576A22813585300A256A8 /* Build configuration list for PBXNativeTarget "Omtri_MoviesUITests" */;
+			buildPhases = (
+				3FA5768E2813585300A256A8 /* Sources */,
+				3FA5768F2813585300A256A8 /* Frameworks */,
+				3FA576902813585300A256A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA576942813585300A256A8 /* PBXTargetDependency */,
+			);
+			name = Omtri_MoviesUITests;
+			productName = Omtri_MoviesUITests;
+			productReference = 3FA576922813585300A256A8 /* Omtri_MoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA5766A2813585300A256A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3FA576712813585300A256A8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3FA576872813585300A256A8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3FA576712813585300A256A8;
+					};
+					3FA576912813585300A256A8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3FA576712813585300A256A8;
+					};
+				};
+			};
+			buildConfigurationList = 3FA5766D2813585300A256A8 /* Build configuration list for PBXProject "Omtri_Movies" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FA576692813585300A256A8;
+			productRefGroup = 3FA576732813585300A256A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA576712813585300A256A8 /* Omtri_Movies */,
+				3FA576872813585300A256A8 /* Omtri_MoviesTests */,
+				3FA576912813585300A256A8 /* Omtri_MoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FA576702813585300A256A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA576822813585300A256A8 /* LaunchScreen.storyboard in Resources */,
+				3FA5767F2813585300A256A8 /* Assets.xcassets in Resources */,
+				3FA5767D2813585300A256A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA576862813585300A256A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA576902813585300A256A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA5766E2813585300A256A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA5767A2813585300A256A8 /* ViewController.swift in Sources */,
+				3FA576762813585300A256A8 /* AppDelegate.swift in Sources */,
+				3FA576A628135DF800A256A8 /* Movie.swift in Sources */,
+				3FA576782813585300A256A8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA576842813585300A256A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA5768D2813585300A256A8 /* Omtri_MoviesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA5768E2813585300A256A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA576972813585300A256A8 /* Omtri_MoviesUITests.swift in Sources */,
+				3FA576992813585300A256A8 /* Omtri_MoviesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FA5768A2813585300A256A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA576712813585300A256A8 /* Omtri_Movies */;
+			targetProxy = 3FA576892813585300A256A8 /* PBXContainerItemProxy */;
+		};
+		3FA576942813585300A256A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA576712813585300A256A8 /* Omtri_Movies */;
+			targetProxy = 3FA576932813585300A256A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FA5767B2813585300A256A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA5767C2813585300A256A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FA576802813585300A256A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA576812813585300A256A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FA5769A2813585300A256A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FA5769B2813585300A256A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FA5769D2813585300A256A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Omtri_Movies/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Omtri_Movies;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Omtri-Movies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FA5769E2813585300A256A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Omtri_Movies/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Omtri_Movies;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Omtri-Movies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FA576A02813585300A256A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Omtri-MoviesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omtri_Movies.app/Omtri_Movies";
+			};
+			name = Debug;
+		};
+		3FA576A12813585300A256A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Omtri-MoviesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omtri_Movies.app/Omtri_Movies";
+			};
+			name = Release;
+		};
+		3FA576A32813585300A256A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Omtri-MoviesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Omtri_Movies;
+			};
+			name = Debug;
+		};
+		3FA576A42813585300A256A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Omtri-MoviesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Omtri_Movies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA5766D2813585300A256A8 /* Build configuration list for PBXProject "Omtri_Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA5769A2813585300A256A8 /* Debug */,
+				3FA5769B2813585300A256A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA5769C2813585300A256A8 /* Build configuration list for PBXNativeTarget "Omtri_Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA5769D2813585300A256A8 /* Debug */,
+				3FA5769E2813585300A256A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA5769F2813585300A256A8 /* Build configuration list for PBXNativeTarget "Omtri_MoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA576A02813585300A256A8 /* Debug */,
+				3FA576A12813585300A256A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA576A22813585300A256A8 /* Build configuration list for PBXNativeTarget "Omtri_MoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA576A32813585300A256A8 /* Debug */,
+				3FA576A42813585300A256A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FA5766A2813585300A256A8 /* Project object */;
+}
